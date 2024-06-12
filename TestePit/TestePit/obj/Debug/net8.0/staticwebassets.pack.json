@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\rycav\\OneDrive\\Documents\\GitHub\\Pit\\TestePit\\TestePit\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TestePit.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TestePit.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\rycav\\OneDrive\\Documents\\GitHub\\Pit\\TestePit\\TestePit\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\rycav\\OneDrive\\Documents\\GitHub\\Pit\\TestePit\\TestePit\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rycav\\OneDrive\\Documents\\GitHub\\Pit\\TestePit\\TestePit\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rycav\\OneDrive\\Documents\\GitHub\\Pit\\TestePit\\TestePit\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TestePit.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TestePit.props",
+      "PackagePath": "build\\TestePit.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TestePit.props",
+      "PackagePath": "buildMultiTargeting\\TestePit.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TestePit.props",
+      "PackagePath": "buildTransitive\\TestePit.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

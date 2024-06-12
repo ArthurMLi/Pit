@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rycav\\OneDrive\\Documents\\GitHub\\Pit\\TestePit\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93E8EF76-4439-4951-B26B-56F9885FB6F5}|TestePit\\TestePit.csproj|c:\\users\\rycav\\onedrive\\documents\\github\\pit\\testepit\\testepit\\components\\novapasta3\\serverloja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93E8EF76-4439-4951-B26B-56F9885FB6F5}|TestePit\\TestePit.csproj|solutionrelative:testepit\\components\\novapasta3\\serverloja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E8EF76-4439-4951-B26B-56F9885FB6F5}|TestePit\\TestePit.csproj|c:\\users\\rycav\\onedrive\\documents\\github\\pit\\testepit\\testepit\\components\\pages\\codigofila.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93E8EF76-4439-4951-B26B-56F9885FB6F5}|TestePit\\TestePit.csproj|solutionrelative:testepit\\components\\pages\\codigofila.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E8EF76-4439-4951-B26B-56F9885FB6F5}|TestePit\\TestePit.csproj|c:\\users\\rycav\\onedrive\\documents\\github\\pit\\testepit\\testepit\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93E8EF76-4439-4951-B26B-56F9885FB6F5}|TestePit\\TestePit.csproj|solutionrelative:testepit\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServerLoja.cs",
+              "DocumentMoniker": "C:\\Users\\rycav\\OneDrive\\Documents\\GitHub\\Pit\\TestePit\\TestePit\\Components\\NovaPasta3\\ServerLoja.cs",
+              "RelativeDocumentMoniker": "TestePit\\Components\\NovaPasta3\\ServerLoja.cs",
+              "ToolTip": "C:\\Users\\rycav\\OneDrive\\Documents\\GitHub\\Pit\\TestePit\\TestePit\\Components\\NovaPasta3\\ServerLoja.cs",
+              "RelativeToolTip": "TestePit\\Components\\NovaPasta3\\ServerLoja.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T20:25:11.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CodigoFila.razor",
+              "DocumentMoniker": "C:\\Users\\rycav\\OneDrive\\Documents\\GitHub\\Pit\\TestePit\\TestePit\\Components\\Pages\\CodigoFila.razor",
+              "RelativeDocumentMoniker": "TestePit\\Components\\Pages\\CodigoFila.razor",
+              "ToolTip": "C:\\Users\\rycav\\OneDrive\\Documents\\GitHub\\Pit\\TestePit\\TestePit\\Components\\Pages\\CodigoFila.razor",
+              "RelativeToolTip": "TestePit\\Components\\Pages\\CodigoFila.razor",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T19:35:56.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\rycav\\OneDrive\\Documents\\GitHub\\Pit\\TestePit\\TestePit\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "TestePit\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\rycav\\OneDrive\\Documents\\GitHub\\Pit\\TestePit\\TestePit\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "TestePit\\Components\\Layout\\NavMenu.razor",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T19:28:48.398Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
