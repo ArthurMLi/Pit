@@ -32,26 +32,9 @@ namespace BlazorApp1.Components.Controller
 
 		}
 		//so testando aqui v
-		public String VerificadorCodigo()
-		{
+		
 
-			bool teste = false;
-			var timer = new System.Timers.Timer(5);
-			timer.AutoReset = true;
-			timer.Elapsed += (source, eventArgs) =>
-			{
-
-				teste = true;
-
-			};
-			timer.Start();
-			if (teste)
-			{
-				return CriarCodigo();
-			}
-			else return "";
-
-		}
+		
 	}
 }
 		

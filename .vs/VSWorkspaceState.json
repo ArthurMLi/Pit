@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BlazorApp1",
+    "\\BlazorApp1\\BlazorApp1",
+    "\\BlazorApp1\\BlazorApp1\\Components",
+    "\\BlazorApp1\\BlazorApp1\\Components\\Pages"
+  ],
+  "SelectedNode": "\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Home.razor",
+  "PreviewInSolutionExplorer": false
+}

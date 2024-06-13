@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rycav\\OneDrive\\Documents\\GitHub\\Pit\\TestePit\\TestePit.Client\\TestePit.Client.csproj": {}
+    "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Escola\\POO\\teste\\Pit\\TestePit\\TestePit.Client\\TestePit.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rycav\\OneDrive\\Documents\\GitHub\\Pit\\TestePit\\TestePit.Client\\TestePit.Client.csproj": {
+    "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Escola\\POO\\teste\\Pit\\TestePit\\TestePit.Client\\TestePit.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rycav\\OneDrive\\Documents\\GitHub\\Pit\\TestePit\\TestePit.Client\\TestePit.Client.csproj",
+        "projectUniqueName": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Escola\\POO\\teste\\Pit\\TestePit\\TestePit.Client\\TestePit.Client.csproj",
         "projectName": "TestePit.Client",
-        "projectPath": "C:\\Users\\rycav\\OneDrive\\Documents\\GitHub\\Pit\\TestePit\\TestePit.Client\\TestePit.Client.csproj",
-        "packagesPath": "C:\\Users\\rycav\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rycav\\OneDrive\\Documents\\GitHub\\Pit\\TestePit\\TestePit.Client\\obj\\",
+        "projectPath": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Escola\\POO\\teste\\Pit\\TestePit\\TestePit.Client\\TestePit.Client.csproj",
+        "packagesPath": "C:\\Users\\artho\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Escola\\POO\\teste\\Pit\\TestePit\\TestePit.Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rycav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\artho\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -63,7 +63,7 @@
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.4, )",
+              "version": "[8.0.5, )",
               "autoReferenced": true
             }
           },
@@ -81,7 +81,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[8.0.4, 8.0.4]"
+              "version": "[8.0.5, 8.0.5]"
             }
           ],
           "frameworkReferences": {
