@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Escola\\POO\\teste\\Pit\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Escola\\POO\\teste\\Pit\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BlazorApp1\\BlazorApp1\\BlazorApp1.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Escola\\POO\\teste\\Pit\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BlazorApp1\\BlazorApp1\\Components\\Pages\\Home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -47,19 +43,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BlazorApp1.csproj.user",
-              "DocumentMoniker": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Escola\\POO\\teste\\Pit\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj.user",
-              "RelativeDocumentMoniker": "BlazorApp1\\BlazorApp1\\BlazorApp1.csproj.user",
-              "ToolTip": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Escola\\POO\\teste\\Pit\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj.user",
-              "RelativeToolTip": "BlazorApp1\\BlazorApp1\\BlazorApp1.csproj.user",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
-              "WhenOpened": "2024-06-13T19:07:15.652Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Escola\\POO\\teste\\Pit\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "BlazorApp1\\BlazorApp1\\Components\\Pages\\Home.razor",
@@ -67,11 +50,12 @@
               "RelativeToolTip": "BlazorApp1\\BlazorApp1\\Components\\Pages\\Home.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-13T19:04:03.836Z"
+              "WhenOpened": "2024-06-13T19:04:03.836Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "CodigoFila.razor",
               "DocumentMoniker": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Escola\\POO\\teste\\Pit\\TestePit\\TestePit\\Components\\Pages\\CodigoFila.razor",
               "RelativeDocumentMoniker": "TestePit\\TestePit\\Components\\Pages\\CodigoFila.razor",
@@ -83,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "ServerLoja.cs",
               "DocumentMoniker": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Escola\\POO\\teste\\Pit\\TestePit\\TestePit\\Components\\NovaPasta3\\ServerLoja.cs",
               "RelativeDocumentMoniker": "TestePit\\TestePit\\Components\\NovaPasta3\\ServerLoja.cs",
@@ -95,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Escola\\POO\\teste\\Pit\\TestePit\\TestePit\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "TestePit\\TestePit\\Components\\Layout\\NavMenu.razor",
