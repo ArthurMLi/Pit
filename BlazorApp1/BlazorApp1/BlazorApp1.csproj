@@ -19,8 +19,24 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Remove="Components\Pages\Login.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\BlazorApp1.Client\BlazorApp1.Client.csproj" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Components\Pages\Login.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Components\Pages\Login.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Components\Pages\Login.razor" />
   </ItemGroup>
 
 </Project>
