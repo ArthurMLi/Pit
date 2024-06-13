@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "h2KJVQKmrXE=",
+  "dgSpecHash": "MhfNXBgL9HY=",
   "success": true,
   "projectFilePath": "C:\\Users\\rycav\\OneDrive\\Documents\\GitHub\\Pit\\TestePit\\TestePit.Client\\TestePit.Client.csproj",
   "expectedPackageFiles": [
@@ -28,11 +28,11 @@
     "C:\\Users\\rycav\\.nuget\\packages\\microsoft.jsinterop\\8.0.5\\microsoft.jsinterop.8.0.5.nupkg.sha512",
     "C:\\Users\\rycav\\.nuget\\packages\\microsoft.jsinterop.webassembly\\8.0.5\\microsoft.jsinterop.webassembly.8.0.5.nupkg.sha512",
     "C:\\Users\\rycav\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.5\\microsoft.net.illink.tasks.8.0.5.nupkg.sha512",
-    "C:\\Users\\rycav\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\8.0.4\\microsoft.net.sdk.webassembly.pack.8.0.4.nupkg.sha512",
+    "C:\\Users\\rycav\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\8.0.5\\microsoft.net.sdk.webassembly.pack.8.0.5.nupkg.sha512",
     "C:\\Users\\rycav\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
     "C:\\Users\\rycav\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\rycav\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
-    "C:\\Users\\rycav\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.4\\microsoft.netcore.app.runtime.mono.browser-wasm.8.0.4.nupkg.sha512"
+    "C:\\Users\\rycav\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.5\\microsoft.netcore.app.runtime.mono.browser-wasm.8.0.5.nupkg.sha512"
   ],
   "logs": []
 }
