@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Components\Pages\View\**" />
+    <Content Remove="Components\Pages\View\**" />
+    <EmbeddedResource Remove="Components\Pages\View\**" />
+    <None Remove="Components\Pages\View\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Components\Controller\NumerosAleatorios.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlazorApp1.Client\BlazorApp1.Client.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.3" />
+  </ItemGroup>
+
+</Project>
