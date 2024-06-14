@@ -3,9 +3,13 @@
     "",
     "\\BlazorApp1",
     "\\BlazorApp1\\BlazorApp1",
+    "\\BlazorApp1\\BlazorApp1.Client",
+    "\\BlazorApp1\\BlazorApp1.Client\\Pages",
     "\\BlazorApp1\\BlazorApp1\\Components",
+    "\\BlazorApp1\\BlazorApp1\\Components\\Controller",
+    "\\BlazorApp1\\BlazorApp1\\Components\\Layout",
     "\\BlazorApp1\\BlazorApp1\\Components\\Pages"
   ],
-  "SelectedNode": "\\BlazorApp1\\BlazorApp1.sln",
+  "SelectedNode": "\\BlazorApp1\\BlazorApp1\\Components\\Controller\\CodigoAleatorio.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -24,6 +24,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BlazorApp1.Client\BlazorApp1.Client.csproj" />
+    <PackageReference Include="FireSharp" Version="2.0.4" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.3" />
   </ItemGroup>
 
