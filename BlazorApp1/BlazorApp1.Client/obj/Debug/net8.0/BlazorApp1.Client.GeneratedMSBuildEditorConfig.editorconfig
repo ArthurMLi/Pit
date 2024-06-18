@@ -13,19 +13,19 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = BlazorApp1.Client
 build_property.RootNamespace = BlazorApp1.Client
-build_property.ProjectDir = C:\Users\artho\OneDrive\Área de Trabalho\Escola\POO\teste\Pit\BlazorApp1\BlazorApp1.Client\
+build_property.ProjectDir = D:\GitHub\Pit\BlazorApp1\BlazorApp1.Client\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\artho\OneDrive\Área de Trabalho\Escola\POO\teste\Pit\BlazorApp1\BlazorApp1.Client
+build_property.MSBuildProjectDirectory = D:\GitHub\Pit\BlazorApp1\BlazorApp1.Client
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/artho/OneDrive/Área de Trabalho/Escola/POO/teste/Pit/BlazorApp1/BlazorApp1.Client/Pages/Counter.razor]
+[D:/GitHub/Pit/BlazorApp1/BlazorApp1.Client/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artho/OneDrive/Área de Trabalho/Escola/POO/teste/Pit/BlazorApp1/BlazorApp1.Client/_Imports.razor]
+[D:/GitHub/Pit/BlazorApp1/BlazorApp1.Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

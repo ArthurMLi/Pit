@@ -1,15 +1,24 @@
-.page[b-j65y7q72mt] {
-    position: relative;
-    display: flex;
-    flex-direction: column;
+page[b-j65y7q72mt] {
+    background-color: #3a0647;
+    height: 945px
+}
+
+.container[b-j65y7q72mt] {
+    
 }
 
 main[b-j65y7q72mt] {
     flex: 1;
+    padding-top: 3.5rem;
+    background-color: #3a0647;
+    height: 890px
 }
-
 .sidebar[b-j65y7q72mt] {
     background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    width: 100%;
+    height: 250px;
+    position: sticky;
+    top: 0;
 }
 
 .top-row[b-j65y7q72mt] {
@@ -19,31 +28,34 @@ main[b-j65y7q72mt] {
     height: 3.5rem;
     display: flex;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
-    .top-row[b-j65y7q72mt]  a, .top-row[b-j65y7q72mt]  .btn-link {
+    .top-row a[b-j65y7q72mt], .top-row .btn-link[b-j65y7q72mt] {
         white-space: nowrap;
         margin-left: 1.5rem;
         text-decoration: none;
     }
 
-    .top-row[b-j65y7q72mt]  a:hover, .top-row[b-j65y7q72mt]  .btn-link:hover {
-        text-decoration: underline;
-    }
+        .top-row a:hover[b-j65y7q72mt], .top-row .btn-link:hover[b-j65y7q72mt] {
+            text-decoration: underline;
+        }
 
-    .top-row[b-j65y7q72mt]  a:first-child {
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
+        .top-row a:first-child[b-j65y7q72mt] {
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
 
 @media (max-width: 640.98px) {
     .top-row[b-j65y7q72mt] {
         justify-content: space-between;
     }
 
-    .top-row[b-j65y7q72mt]  a, .top-row[b-j65y7q72mt]  .btn-link {
-        margin-left: 0;
-    }
+        .top-row a[b-j65y7q72mt], .top-row .btn-link[b-j65y7q72mt] {
+            margin-left: 0;
+        }
 }
 
 @media (min-width: 641px) {
@@ -64,11 +76,11 @@ main[b-j65y7q72mt] {
         z-index: 1;
     }
 
-    .top-row.auth[b-j65y7q72mt]  a:first-child {
-        flex: 1;
-        text-align: right;
-        width: 0;
-    }
+        .top-row.auth a:first-child[b-j65y7q72mt] {
+            flex: 1;
+            text-align: right;
+            width: 0;
+        }
 
     .top-row[b-j65y7q72mt], article[b-j65y7q72mt] {
         padding-left: 2rem !important;
