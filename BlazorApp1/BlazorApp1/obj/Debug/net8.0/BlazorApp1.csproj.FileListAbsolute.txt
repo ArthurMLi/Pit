@@ -115,3 +115,10 @@ C:\Users\artho\OneDrive\Área de Trabalho\Escola\POO\teste\Pit\BlazorApp1\Blazor
 C:\Users\artho\OneDrive\Área de Trabalho\Escola\POO\teste\Pit\BlazorApp1\BlazorApp1\obj\Debug\net8.0\BlazorApp1.csproj.Up2Date
 C:\Users\artho\OneDrive\Área de Trabalho\Escola\POO\teste\Pit\BlazorApp1\BlazorApp1\obj\Debug\net8.0\BlazorApp1.genruntimeconfig.cache
 C:\Users\artho\OneDrive\Área de Trabalho\Escola\POO\teste\Pit\BlazorApp1\BlazorApp1\obj\Debug\net8.0\ref\BlazorApp1.dll
+C:\Users\artho\OneDrive\Área de Trabalho\Escola\POO\teste\Pit\BlazorApp1\BlazorApp1\bin\Debug\net8.0\FireSharp.dll
+C:\Users\artho\OneDrive\Área de Trabalho\Escola\POO\teste\Pit\BlazorApp1\BlazorApp1\bin\Debug\net8.0\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\artho\OneDrive\Área de Trabalho\Escola\POO\teste\Pit\BlazorApp1\BlazorApp1\bin\Debug\net8.0\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\artho\OneDrive\Área de Trabalho\Escola\POO\teste\Pit\BlazorApp1\BlazorApp1\bin\Debug\net8.0\Microsoft.Threading.Tasks.dll
+C:\Users\artho\OneDrive\Área de Trabalho\Escola\POO\teste\Pit\BlazorApp1\BlazorApp1\bin\Debug\net8.0\System.Net.Http.Extensions.dll
+C:\Users\artho\OneDrive\Área de Trabalho\Escola\POO\teste\Pit\BlazorApp1\BlazorApp1\bin\Debug\net8.0\System.Net.Http.Primitives.dll
+C:\Users\artho\OneDrive\Área de Trabalho\Escola\POO\teste\Pit\BlazorApp1\BlazorApp1\bin\Debug\net8.0\Newtonsoft.Json.dll
