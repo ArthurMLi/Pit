@@ -1,2 +1,17 @@
-﻿body {
+﻿.card {
+    background-color: #3a0647;
+    border: 2px solid #6a0dad;
 }
+.col-md-8 h1 {
+    color: white;
+}
+.col-md-8 h5 {
+    color: white;
+}
+.col-md-8 p {
+    color: white;
+}
+.col-md-8 div{
+    border-color: #6a0dad;
+}
+

@@ -1,2 +1,17 @@
-body[b-x0adpbawup] {
+.card[b-x0adpbawup] {
+    background-color: #3a0647;
+    border: 2px solid #6a0dad;
 }
+.col-md-8 h1[b-x0adpbawup] {
+    color: white;
+}
+.col-md-8 h5[b-x0adpbawup] {
+    color: white;
+}
+.col-md-8 p[b-x0adpbawup] {
+    color: white;
+}
+.col-md-8 div[b-x0adpbawup]{
+    border-color: #6a0dad;
+}
+

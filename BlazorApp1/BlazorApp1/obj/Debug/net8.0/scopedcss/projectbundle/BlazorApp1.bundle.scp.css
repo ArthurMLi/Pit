@@ -1,18 +1,18 @@
 /* _content/BlazorApp1/Components/Layout/MainLayout.razor.rz.scp.css */
 page[b-j65y7q72mt] {
     background-color: #3a0647;
-    height: 945px
+    height: 945px;
+    overflow: hidden;
 }
-
 .container[b-j65y7q72mt] {
-    
-}
 
+}
 main[b-j65y7q72mt] {
-    flex: 1;
+    
     padding-top: 3.5rem;
     background-color: #3a0647;
-    height: 890px
+    height: 3000px;
+    overflow: hidden;
 }
 .sidebar[b-j65y7q72mt] {
     background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
@@ -57,6 +57,7 @@ main[b-j65y7q72mt] {
         .top-row a[b-j65y7q72mt], .top-row .btn-link[b-j65y7q72mt] {
             margin-left: 0;
         }
+
 }
 
 @media (min-width: 641px) {
@@ -123,10 +124,9 @@ body[b-5bndfk4shp] {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #6a0dad;
+    background-color: #4b045d;
     color: #ffffff;
     padding: 10px 20px;
-    
 }
 a[b-5bndfk4shp] {
     text-decoration:none;
@@ -163,26 +163,29 @@ a[b-5bndfk4shp] {
 *[b-8jyen0kfee] {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
-
-article[b-8jyen0kfee] {
-    display: flex;
-    align-items: center;
+html[b-8jyen0kfee] {
+    overflow-x: hidden;
+    background-color: #3a0647;
 }
+
 .login-container[b-8jyen0kfee] {
-    width: 100%;
-    max-width: 400px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .login-box[b-8jyen0kfee] {
-    background-color: #6a0dad;
+    width: 400px;
+    background-color: #3a0647;
     color: #ffffff;
-    padding: 30px;
+    padding: 40px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px #6a0dad;
+    text-align: center;
 }
 
     .login-box h2[b-8jyen0kfee] {
@@ -210,7 +213,7 @@ article[b-8jyen0kfee] {
 button[b-8jyen0kfee] {
     width: 100%;
     padding: 10px;
-    background-color: #3a0647;
+    background-color: rgb(75, 4, 93);
     color: #ffffff;
     border: none;
     border-radius: 4px;
@@ -220,7 +223,7 @@ button[b-8jyen0kfee] {
 }
 
     button:hover[b-8jyen0kfee] {
-        background-color: #4d0860;
+        background-color: rgb(87, 4, 101);
     }
 
 .bottom-text[b-8jyen0kfee] {
@@ -241,6 +244,34 @@ button[b-8jyen0kfee] {
         .bottom-text a:hover[b-8jyen0kfee] {
             color: #dddddd;
         }
-/* _content/BlazorApp1/Components/Pages/Home.razor.rz.scp.css */
-body[b-x0adpbawup] {
+
+/* media tela de login para celulares */
+@media (max-width: 400px) {
+    .login-box[b-8jyen0kfee] {
+        width: 90%; 
+        padding: 20px;
+    }
+
+    button[b-8jyen0kfee] {
+        font-size: 0.9rem;
+        padding: 8px; 
+    }
 }
+/* _content/BlazorApp1/Components/Pages/Home.razor.rz.scp.css */
+.card[b-x0adpbawup] {
+    background-color: #3a0647;
+    border: 2px solid #6a0dad;
+}
+.col-md-8 h1[b-x0adpbawup] {
+    color: white;
+}
+.col-md-8 h5[b-x0adpbawup] {
+    color: white;
+}
+.col-md-8 p[b-x0adpbawup] {
+    color: white;
+}
+.col-md-8 div[b-x0adpbawup]{
+    border-color: #6a0dad;
+}
+
