@@ -1,26 +1,29 @@
 ﻿* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
-
-article {
-    display: flex;
-    align-items: center;
+html {
+    overflow-x: hidden;
+    background-color: #3a0647;
 }
+
 .login-container {
-    width: 100%;
-    max-width: 400px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .login-box {
-    background-color: #6a0dad;
+    width: 400px;
+    background-color: #3a0647;
     color: #ffffff;
-    padding: 30px;
+    padding: 40px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px #6a0dad;
+    text-align: center;
 }
 
     .login-box h2 {
@@ -48,7 +51,7 @@ article {
 button {
     width: 100%;
     padding: 10px;
-    background-color: #3a0647;
+    background-color: rgb(75, 4, 93);
     color: #ffffff;
     border: none;
     border-radius: 4px;
@@ -58,7 +61,7 @@ button {
 }
 
     button:hover {
-        background-color: #4d0860;
+        background-color: rgb(87, 4, 101);
     }
 
 .bottom-text {
@@ -79,3 +82,16 @@ button {
         .bottom-text a:hover {
             color: #dddddd;
         }
+
+/* media tela de login para celulares */
+@media (max-width: 400px) {
+    .login-box {
+        width: 90%; 
+        padding: 20px;
+    }
+
+    button {
+        font-size: 0.9rem;
+        padding: 8px; 
+    }
+}

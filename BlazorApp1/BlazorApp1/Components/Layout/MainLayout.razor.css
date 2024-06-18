@@ -1,17 +1,17 @@
 page {
     background-color: #3a0647;
-    height: 945px
+    height: 945px;
+    overflow: hidden;
 }
-
 .container {
-    
-}
 
+}
 main {
-    flex: 1;
+    
     padding-top: 3.5rem;
     background-color: #3a0647;
-    height: 890px
+    height: 3000px;
+    overflow: hidden;
 }
 .sidebar {
     background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
@@ -56,6 +56,7 @@ main {
         .top-row a, .top-row .btn-link {
             margin-left: 0;
         }
+
 }
 
 @media (min-width: 641px) {

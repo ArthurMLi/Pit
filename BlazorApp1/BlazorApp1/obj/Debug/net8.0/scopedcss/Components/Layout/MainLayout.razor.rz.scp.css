@@ -1,17 +1,17 @@
 page[b-j65y7q72mt] {
     background-color: #3a0647;
-    height: 945px
+    height: 945px;
+    overflow: hidden;
 }
-
 .container[b-j65y7q72mt] {
-    
-}
 
+}
 main[b-j65y7q72mt] {
-    flex: 1;
+    
     padding-top: 3.5rem;
     background-color: #3a0647;
-    height: 890px
+    height: 3000px;
+    overflow: hidden;
 }
 .sidebar[b-j65y7q72mt] {
     background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
@@ -56,6 +56,7 @@ main[b-j65y7q72mt] {
         .top-row a[b-j65y7q72mt], .top-row .btn-link[b-j65y7q72mt] {
             margin-left: 0;
         }
+
 }
 
 @media (min-width: 641px) {

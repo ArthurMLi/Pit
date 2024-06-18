@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f68QyaeZgntjmfK7iVyfZkii1MFMuShVBC2cmKfYN0i3a5/INeDqtqN/hiOkeyr0M8dMTYvA2roFGlftPU8njw==",
+  "dgSpecHash": "YURsFUdDnSi8CTesxH3h/TYl1PbkaOHL9yMGOJpFo3Zn9Lb5yl1P0fxpu/BIuxgt4yucs2xkd+3IbA57UmL5Wg==",
   "success": true,
-  "projectFilePath": "D:\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
+  "projectFilePath": "D:\\GitHub\\Pit\\Pit\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jcjco\\.nuget\\packages\\firesharp\\2.0.4\\firesharp.2.0.4.nupkg.sha512",
     "C:\\Users\\jcjco\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.3\\microsoft.aspnetcore.authorization.8.0.3.nupkg.sha512",
