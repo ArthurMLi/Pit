@@ -258,3 +258,5 @@ D:\GitHub\Pit\Pit\BlazorApp1\BlazorApp1\obj\Debug\net8.0\refint\BlazorApp1.dll
 D:\GitHub\Pit\Pit\BlazorApp1\BlazorApp1\obj\Debug\net8.0\BlazorApp1.pdb
 D:\GitHub\Pit\Pit\BlazorApp1\BlazorApp1\obj\Debug\net8.0\BlazorApp1.genruntimeconfig.cache
 D:\GitHub\Pit\Pit\BlazorApp1\BlazorApp1\obj\Debug\net8.0\ref\BlazorApp1.dll
+C:\Users\artho\OneDrive\Área de Trabalho\Escola\POO\teste\Pit\BlazorApp1\BlazorApp1\obj\Debug\net8.0\scopedcss\Components\Login.razor.rz.scp.css
+C:\Users\artho\OneDrive\Área de Trabalho\Escola\POO\teste\Pit\BlazorApp1\BlazorApp1\obj\Debug\net8.0\scopedcss\Components\Pages\Home.razor.rz.scp.css
