@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Escola\\POO\\teste\\Pit\\BlazorApp1\\Estabelecimentos.Modelos\\ControleDeEstabelecimenos.Modelos.csproj": {}
+    "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Escola\\POO\\teste\\Pit\\BlazorApp1\\Estabelecimentos.Modelos\\ControleDeEstabelecimentos.Modelos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Escola\\POO\\teste\\Pit\\BlazorApp1\\Estabelecimentos.Modelos\\ControleDeEstabelecimenos.Modelos.csproj": {
+    "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Escola\\POO\\teste\\Pit\\BlazorApp1\\Estabelecimentos.Modelos\\ControleDeEstabelecimentos.Modelos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Escola\\POO\\teste\\Pit\\BlazorApp1\\Estabelecimentos.Modelos\\ControleDeEstabelecimenos.Modelos.csproj",
-        "projectName": "ControleDeEstabelecimenos.Modelos",
-        "projectPath": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Escola\\POO\\teste\\Pit\\BlazorApp1\\Estabelecimentos.Modelos\\ControleDeEstabelecimenos.Modelos.csproj",
+        "projectUniqueName": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Escola\\POO\\teste\\Pit\\BlazorApp1\\Estabelecimentos.Modelos\\ControleDeEstabelecimentos.Modelos.csproj",
+        "projectName": "ControleDeEstabelecimentos.Modelos",
+        "projectPath": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Escola\\POO\\teste\\Pit\\BlazorApp1\\Estabelecimentos.Modelos\\ControleDeEstabelecimentos.Modelos.csproj",
         "packagesPath": "C:\\Users\\artho\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Escola\\POO\\teste\\Pit\\BlazorApp1\\Estabelecimentos.Modelos\\obj\\",
         "projectStyle": "PackageReference",

@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{E561E7EE-DD8A-40B6-9657-DD4F9E59672B}|Estabelecimentos.Modelos\\ControleDeEstabelecimenos.Modelos.csproj|solutionrelative:estabelecimentos.modelos\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAC8A03B-63BF-4537-B744-4ED6A10C5994}|Estabelecimentos\\Estabelecimentos.csproj|c:\\users\\artho\\onedrive\\\u00E1rea de trabalho\\escola\\poo\\teste\\pit\\blazorapp1\\estabelecimentos\\dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAC8A03B-63BF-4537-B744-4ED6A10C5994}|Estabelecimentos\\Estabelecimentos.csproj|solutionrelative:estabelecimentos\\dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E561E7EE-DD8A-40B6-9657-DD4F9E59672B}|Estabelecimentos.Modelos\\ControleDeEstabelecimenos.Modelos.csproj|c:\\users\\artho\\onedrive\\\u00E1rea de trabalho\\escola\\poo\\teste\\pit\\blazorapp1\\estabelecimentos.modelos\\estabelecimentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E561E7EE-DD8A-40B6-9657-DD4F9E59672B}|Estabelecimentos.Modelos\\ControleDeEstabelecimenos.Modelos.csproj|solutionrelative:estabelecimentos.modelos\\estabelecimentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC8A03B-63BF-4537-B744-4ED6A10C5994}|Estabelecimentos\\ControleDeEstabelecimenos.Dados.csproj|c:\\users\\artho\\onedrive\\\u00E1rea de trabalho\\escola\\poo\\teste\\pit\\blazorapp1\\estabelecimentos\\dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC8A03B-63BF-4537-B744-4ED6A10C5994}|Estabelecimentos\\ControleDeEstabelecimenos.Dados.csproj|solutionrelative:estabelecimentos\\dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8266ED86-B605-4E2F-9660-7E03759391B1}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\artho\\onedrive\\\u00E1rea de trabalho\\escola\\poo\\teste\\pit\\blazorapp1\\blazorapp1\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -101,35 +101,10 @@
               "RelativeDocumentMoniker": "Estabelecimentos.Modelos\\Clientes.cs",
               "ToolTip": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Escola\\POO\\teste\\Pit\\BlazorApp1\\Estabelecimentos.Modelos\\Clientes.cs",
               "RelativeToolTip": "Estabelecimentos.Modelos\\Clientes.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAsAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-19T00:12:42.723Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Estabelecimentos.cs",
-              "DocumentMoniker": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Escola\\POO\\teste\\Pit\\BlazorApp1\\Estabelecimentos.Modelos\\Estabelecimentos.cs",
-              "RelativeDocumentMoniker": "Estabelecimentos.Modelos\\Estabelecimentos.cs",
-              "ToolTip": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Escola\\POO\\teste\\Pit\\BlazorApp1\\Estabelecimentos.Modelos\\Estabelecimentos.cs",
-              "RelativeToolTip": "Estabelecimentos.Modelos\\Estabelecimentos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T23:56:01.365Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DAL.cs",
-              "DocumentMoniker": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Escola\\POO\\teste\\Pit\\BlazorApp1\\Estabelecimentos\\DAL.cs",
-              "RelativeDocumentMoniker": "Estabelecimentos\\DAL.cs",
-              "ToolTip": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Escola\\POO\\teste\\Pit\\BlazorApp1\\Estabelecimentos\\DAL.cs",
-              "RelativeToolTip": "Estabelecimentos\\DAL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T23:34:10.765Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -146,13 +121,39 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Estabelecimentos.cs",
+              "DocumentMoniker": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Escola\\POO\\teste\\Pit\\BlazorApp1\\Estabelecimentos.Modelos\\Estabelecimentos.cs",
+              "RelativeDocumentMoniker": "Estabelecimentos.Modelos\\Estabelecimentos.cs",
+              "ToolTip": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Escola\\POO\\teste\\Pit\\BlazorApp1\\Estabelecimentos.Modelos\\Estabelecimentos.cs",
+              "RelativeToolTip": "Estabelecimentos.Modelos\\Estabelecimentos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T23:56:01.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DAL.cs",
+              "DocumentMoniker": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Escola\\POO\\teste\\Pit\\BlazorApp1\\Estabelecimentos\\DAL.cs",
+              "RelativeDocumentMoniker": "Estabelecimentos\\DAL.cs",
+              "ToolTip": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Escola\\POO\\teste\\Pit\\BlazorApp1\\Estabelecimentos\\DAL.cs",
+              "RelativeToolTip": "Estabelecimentos\\DAL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T23:34:10.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Escola\\POO\\teste\\Pit\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\Home.razor",
               "ToolTip": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Escola\\POO\\teste\\Pit\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "BlazorApp1\\Components\\Pages\\Home.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAIAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-10T20:04:40.253Z",
               "EditorCaption": ""

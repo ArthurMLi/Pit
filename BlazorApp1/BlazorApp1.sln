@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp1", "BlazorApp1\Bl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp1.Client", "BlazorApp1.Client\BlazorApp1.Client.csproj", "{47CD064E-80AF-483B-9386-0630462F59D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleDeEstabelecimenos.Dados", "Estabelecimentos\ControleDeEstabelecimenos.Dados.csproj", "{BAC8A03B-63BF-4537-B744-4ED6A10C5994}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleDeEstabelecimentos.Dados", "Estabelecimentos\ControleDeEstabelecimentos.Dados.csproj", "{BAC8A03B-63BF-4537-B744-4ED6A10C5994}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleDeEstabelecimenos.Modelos", "Estabelecimentos.Modelos\ControleDeEstabelecimenos.Modelos.csproj", "{E561E7EE-DD8A-40B6-9657-DD4F9E59672B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleDeEstabelecimentos.Modelos", "Estabelecimentos.Modelos\ControleDeEstabelecimentos.Modelos.csproj", "{E561E7EE-DD8A-40B6-9657-DD4F9E59672B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

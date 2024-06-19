@@ -7,7 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Estabelecimentos.Modelos\ControleDeEstabelecimenos.Modelos.csproj" />
+    <PackageReference Include="Edmw.ApiInvokerHttpClient" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Estabelecimentos.Modelos\ControleDeEstabelecimentos.Modelos.csproj" />
   </ItemGroup>
 
 </Project>

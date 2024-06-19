@@ -1,8 +1,10 @@
 ﻿using ControleDeEstabelecimenos.Modelos;
+using Edmw.ApiInvokerHttpClient;
 namespace ControleDeEstabelecimenos.Dados
 {
     internal class DAL
     {
+        public IHttpContextAccessor HttpContextAccessor { get; set; }
         public List<Estabelecimentos> ListarE()
         {
 
@@ -24,4 +26,6 @@ namespace ControleDeEstabelecimenos.Dados
         }
     
     }
+
+   
 }
