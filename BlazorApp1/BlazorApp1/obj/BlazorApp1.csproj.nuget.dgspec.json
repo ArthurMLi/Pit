@@ -298,6 +298,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\Pit\\BlazorApp1\\BlazorApp1.Client\\BlazorApp1.Client.csproj": {
+                "projectPath": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\Pit\\BlazorApp1\\BlazorApp1.Client\\BlazorApp1.Client.csproj"
+              },
               "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\Pit\\BlazorApp1\\Estabelecimentos.Modelos\\ControleDeEstabelecimentos.Modelos.csproj": {
                 "projectPath": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\Pit\\BlazorApp1\\Estabelecimentos.Modelos\\ControleDeEstabelecimentos.Modelos.csproj"
               }

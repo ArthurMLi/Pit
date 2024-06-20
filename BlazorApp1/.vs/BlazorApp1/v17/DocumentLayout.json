@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Pit\\Pit\\BlazorApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E561E7EE-DD8A-40B6-9657-DD4F9E59672B}|Estabelecimentos.Modelos\\ControleDeEstabelecimentos.Modelos.csproj|c:\\users\\artho\\onedrive\\\u00E1rea de trabalho\\pit\\pit\\blazorapp1\\estabelecimentos.modelos\\fila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E561E7EE-DD8A-40B6-9657-DD4F9E59672B}|Estabelecimentos.Modelos\\ControleDeEstabelecimentos.Modelos.csproj|solutionrelative:estabelecimentos.modelos\\fila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8266ED86-B605-4E2F-9660-7E03759391B1}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\artho\\onedrive\\\u00E1rea de trabalho\\pit\\pit\\blazorapp1\\blazorapp1\\components\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8266ED86-B605-4E2F-9660-7E03759391B1}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E561E7EE-DD8A-40B6-9657-DD4F9E59672B}|Estabelecimentos.Modelos\\ControleDeEstabelecimentos.Modelos.csproj|c:\\users\\artho\\onedrive\\\u00E1rea de trabalho\\pit\\pit\\blazorapp1\\estabelecimentos.modelos\\estabelecimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E561E7EE-DD8A-40B6-9657-DD4F9E59672B}|Estabelecimentos.Modelos\\ControleDeEstabelecimentos.Modelos.csproj|solutionrelative:estabelecimentos.modelos\\estabelecimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E561E7EE-DD8A-40B6-9657-DD4F9E59672B}|Estabelecimentos.Modelos\\ControleDeEstabelecimentos.Modelos.csproj|c:\\users\\artho\\onedrive\\\u00E1rea de trabalho\\pit\\pit\\blazorapp1\\estabelecimentos.modelos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E561E7EE-DD8A-40B6-9657-DD4F9E59672B}|Estabelecimentos.Modelos\\ControleDeEstabelecimentos.Modelos.csproj|solutionrelative:estabelecimentos.modelos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAC8A03B-63BF-4537-B744-4ED6A10C5994}|Estabelecimentos\\ControleDeEstabelecimentos.Dados.csproj|c:\\users\\artho\\onedrive\\\u00E1rea de trabalho\\pit\\pit\\blazorapp1\\estabelecimentos\\dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAC8A03B-63BF-4537-B744-4ED6A10C5994}|Estabelecimentos\\ControleDeEstabelecimentos.Dados.csproj|solutionrelative:estabelecimentos\\dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8266ED86-B605-4E2F-9660-7E03759391B1}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\artho\\onedrive\\\u00E1rea de trabalho\\pit\\pit\\blazorapp1\\blazorapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8266ED86-B605-4E2F-9660-7E03759391B1}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8266ED86-B605-4E2F-9660-7E03759391B1}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\artho\\onedrive\\\u00E1rea de trabalho\\pit\\pit\\blazorapp1\\blazorapp1\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8266ED86-B605-4E2F-9660-7E03759391B1}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8266ED86-B605-4E2F-9660-7E03759391B1}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\artho\\onedrive\\\u00E1rea de trabalho\\pit\\pit\\blazorapp1\\blazorapp1\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8266ED86-B605-4E2F-9660-7E03759391B1}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BAC8A03B-63BF-4537-B744-4ED6A10C5994}|Estabelecimentos\\ControleDeEstabelecimentos.Dados.csproj|c:\\users\\artho\\onedrive\\\u00E1rea de trabalho\\pit\\pit\\blazorapp1\\estabelecimentos\\dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC8A03B-63BF-4537-B744-4ED6A10C5994}|Estabelecimentos\\ControleDeEstabelecimentos.Dados.csproj|solutionrelative:estabelecimentos\\dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8266ED86-B605-4E2F-9660-7E03759391B1}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\artho\\onedrive\\\u00E1rea de trabalho\\pit\\pit\\blazorapp1\\blazorapp1\\components\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8266ED86-B605-4E2F-9660-7E03759391B1}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BAC8A03B-63BF-4537-B744-4ED6A10C5994}|Estabelecimentos\\ControleDeEstabelecimentos.Dados.csproj|c:\\users\\artho\\onedrive\\\u00E1rea de trabalho\\pit\\pit\\blazorapp1\\estabelecimentos\\controledeestabelecimentos.dados.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{BAC8A03B-63BF-4537-B744-4ED6A10C5994}|Estabelecimentos\\ControleDeEstabelecimentos.Dados.csproj|solutionrelative:estabelecimentos\\controledeestabelecimentos.dados.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E561E7EE-DD8A-40B6-9657-DD4F9E59672B}|Estabelecimentos.Modelos\\ControleDeEstabelecimentos.Modelos.csproj|c:\\users\\artho\\onedrive\\\u00E1rea de trabalho\\pit\\pit\\blazorapp1\\estabelecimentos.modelos\\estabelecimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E561E7EE-DD8A-40B6-9657-DD4F9E59672B}|Estabelecimentos.Modelos\\ControleDeEstabelecimentos.Modelos.csproj|solutionrelative:estabelecimentos.modelos\\estabelecimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E561E7EE-DD8A-40B6-9657-DD4F9E59672B}|Estabelecimentos.Modelos\\ControleDeEstabelecimentos.Modelos.csproj|c:\\users\\artho\\onedrive\\\u00E1rea de trabalho\\pit\\pit\\blazorapp1\\estabelecimentos.modelos\\fila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E561E7EE-DD8A-40B6-9657-DD4F9E59672B}|Estabelecimentos.Modelos\\ControleDeEstabelecimentos.Modelos.csproj|solutionrelative:estabelecimentos.modelos\\fila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E561E7EE-DD8A-40B6-9657-DD4F9E59672B}|Estabelecimentos.Modelos\\ControleDeEstabelecimentos.Modelos.csproj|c:\\users\\artho\\onedrive\\\u00E1rea de trabalho\\pit\\pit\\blazorapp1\\estabelecimentos.modelos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E561E7EE-DD8A-40B6-9657-DD4F9E59672B}|Estabelecimentos.Modelos\\ControleDeEstabelecimentos.Modelos.csproj|solutionrelative:estabelecimentos.modelos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8266ED86-B605-4E2F-9660-7E03759391B1}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\artho\\onedrive\\\u00E1rea de trabalho\\pit\\pit\\blazorapp1\\blazorapp1\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8266ED86-B605-4E2F-9660-7E03759391B1}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8266ED86-B605-4E2F-9660-7E03759391B1}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\artho\\onedrive\\\u00E1rea de trabalho\\pit\\pit\\blazorapp1\\blazorapp1\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -55,10 +63,6 @@
       "RelativeMoniker": "D:0:0:{8266ED86-B605-4E2F-9660-7E03759391B1}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pages\\home.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8266ED86-B605-4E2F-9660-7E03759391B1}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\artho\\onedrive\\\u00E1rea de trabalho\\pit\\pit\\blazorapp1\\blazorapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8266ED86-B605-4E2F-9660-7E03759391B1}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8266ED86-B605-4E2F-9660-7E03759391B1}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\artho\\onedrive\\\u00E1rea de trabalho\\pit\\pit\\blazorapp1\\blazorapp1\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8266ED86-B605-4E2F-9660-7E03759391B1}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -81,11 +85,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "App.razor",
               "DocumentMoniker": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Pit\\Pit\\BlazorApp1\\BlazorApp1\\Components\\App.razor",
               "RelativeDocumentMoniker": "BlazorApp1\\Components\\App.razor",
@@ -98,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Pit\\Pit\\BlazorApp1\\Estabelecimentos.Modelos\\Usuario.cs",
               "RelativeDocumentMoniker": "Estabelecimentos.Modelos\\Usuario.cs",
@@ -107,21 +111,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-19T00:12:42.723Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Fila.cs",
-              "DocumentMoniker": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Pit\\Pit\\BlazorApp1\\Estabelecimentos.Modelos\\Fila.cs",
-              "RelativeDocumentMoniker": "Estabelecimentos.Modelos\\Fila.cs",
-              "ToolTip": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Pit\\Pit\\BlazorApp1\\Estabelecimentos.Modelos\\Fila.cs",
-              "RelativeToolTip": "Estabelecimentos.Modelos\\Fila.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T20:06:30.335Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -137,13 +127,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Estabelecimento.cs",
               "DocumentMoniker": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Pit\\Pit\\BlazorApp1\\Estabelecimentos.Modelos\\Estabelecimento.cs",
               "RelativeDocumentMoniker": "Estabelecimentos.Modelos\\Estabelecimento.cs",
               "ToolTip": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Pit\\Pit\\BlazorApp1\\Estabelecimentos.Modelos\\Estabelecimento.cs",
               "RelativeToolTip": "Estabelecimentos.Modelos\\Estabelecimento.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAiAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-18T23:56:01.365Z",
               "EditorCaption": ""
@@ -156,26 +146,27 @@
               "RelativeDocumentMoniker": "Estabelecimentos\\DAL.cs",
               "ToolTip": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Pit\\Pit\\BlazorApp1\\Estabelecimentos\\DAL.cs",
               "RelativeToolTip": "Estabelecimentos\\DAL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-18T23:34:10.765Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Pit\\Pit\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\Home.razor",
               "ToolTip": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Pit\\Pit\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "BlazorApp1\\Components\\Pages\\Home.razor",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAIAAAAfAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAACAAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-10T20:04:40.253Z"
+              "WhenOpened": "2024-06-10T20:04:40.253Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "NavMenu.razor.css",
               "DocumentMoniker": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Pit\\Pit\\BlazorApp1\\BlazorApp1\\Components\\Layout\\NavMenu.razor.css",
               "RelativeDocumentMoniker": "BlazorApp1\\Components\\Layout\\NavMenu.razor.css",
@@ -187,19 +178,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Login.razor",
               "DocumentMoniker": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Pit\\Pit\\BlazorApp1\\BlazorApp1\\Components\\Login.razor",
               "RelativeDocumentMoniker": "BlazorApp1\\Components\\Login.razor",
               "ToolTip": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Pit\\Pit\\BlazorApp1\\BlazorApp1\\Components\\Login.razor",
               "RelativeToolTip": "BlazorApp1\\Components\\Login.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-18T00:29:35.217Z"
+              "WhenOpened": "2024-06-18T00:29:35.217Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "BlazorApp1.csproj",
               "DocumentMoniker": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Pit\\Pit\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
               "RelativeDocumentMoniker": "BlazorApp1\\BlazorApp1.csproj",
@@ -211,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Pit\\Pit\\BlazorApp1\\BlazorApp1\\Components\\_Imports.razor",
               "RelativeDocumentMoniker": "BlazorApp1\\Components\\_Imports.razor",
@@ -223,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Home.razor.css",
               "DocumentMoniker": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Pit\\Pit\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Home.razor.css",
               "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\Home.razor.css",
@@ -235,7 +227,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Pit\\Pit\\BlazorApp1\\BlazorApp1\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Pit\\Pit\\BlazorApp1\\BlazorApp1\\Program.cs",
+              "RelativeToolTip": "BlazorApp1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T19:07:33.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Fila.cs",
+              "DocumentMoniker": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Pit\\Pit\\BlazorApp1\\Estabelecimentos.Modelos\\Fila.cs",
+              "RelativeDocumentMoniker": "Estabelecimentos.Modelos\\Fila.cs",
+              "ToolTip": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Pit\\Pit\\BlazorApp1\\Estabelecimentos.Modelos\\Fila.cs",
+              "RelativeToolTip": "Estabelecimentos.Modelos\\Fila.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T20:06:30.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ControleDeEstabelecimentos.Dados",
+              "DocumentMoniker": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Pit\\Pit\\BlazorApp1\\Estabelecimentos\\ControleDeEstabelecimentos.Dados.csproj",
+              "RelativeDocumentMoniker": "Estabelecimentos\\ControleDeEstabelecimentos.Dados.csproj",
+              "ToolTip": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Pit\\Pit\\BlazorApp1\\Estabelecimentos\\ControleDeEstabelecimentos.Dados.csproj",
+              "RelativeToolTip": "Estabelecimentos\\ControleDeEstabelecimentos.Dados.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-20T20:44:54.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Pit\\Pit\\BlazorApp1\\BlazorApp1\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "BlazorApp1\\Components\\Layout\\NavMenu.razor",
@@ -247,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "MainLayout.razor.css",
               "DocumentMoniker": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Pit\\Pit\\BlazorApp1\\BlazorApp1\\Components\\Layout\\MainLayout.razor.css",
               "RelativeDocumentMoniker": "BlazorApp1\\Components\\Layout\\MainLayout.razor.css",
@@ -259,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Pit\\Pit\\BlazorApp1\\BlazorApp1\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "BlazorApp1\\Components\\Layout\\MainLayout.razor",
@@ -271,19 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Pit\\Pit\\BlazorApp1\\BlazorApp1\\Program.cs",
-              "RelativeDocumentMoniker": "BlazorApp1\\Program.cs",
-              "ToolTip": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Pit\\Pit\\BlazorApp1\\BlazorApp1\\Program.cs",
-              "RelativeToolTip": "BlazorApp1\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T19:07:33.702Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Error.razor",
               "DocumentMoniker": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Pit\\Pit\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Error.razor",
               "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\Error.razor",
@@ -295,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Counter.razor",
               "DocumentMoniker": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Escola\\POO\\BlazorApp\\Components\\Pages\\Counter.razor",
               "RelativeDocumentMoniker": "..\\..\\..\\Escola\\POO\\BlazorApp\\Components\\Pages\\Counter.razor",
@@ -306,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "CodigoAleatorio.cs",
               "DocumentMoniker": "C:\\Users\\artho\\OneDrive\\\u00C1rea de Trabalho\\Pit\\Pit\\BlazorApp1\\BlazorApp1\\Components\\Controller\\CodigoAleatorio.cs",
               "RelativeDocumentMoniker": "BlazorApp1\\Components\\Controller\\CodigoAleatorio.cs",

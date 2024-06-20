@@ -1,9 +1,11 @@
 ﻿using ControleDeEstabelecimentos.Modelos;
+using BlazorApp1;
 using Edmw.ApiInvokerHttpClient;
 namespace ControleDeEstabelecimentos.Dados
 {
     internal class DAL
     {
+
         //public IHttpContextAccessor HttpContextAccessor { get; set; }
         public List<Estabelecimento> ListarE()
         {

@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BlazorApp1.Client\BlazorApp1.Client.csproj" />
     <ProjectReference Include="..\Estabelecimentos.Modelos\ControleDeEstabelecimentos.Modelos.csproj" />
   </ItemGroup>
 

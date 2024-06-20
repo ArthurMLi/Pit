@@ -632,6 +632,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "BlazorApp1.Client": "1.0.0",
           "ControleDeEstabelecimentos.Modelos": "1.0.0",
           "Edmw.ApiInvokerHttpClient": "1.0.0"
         },
