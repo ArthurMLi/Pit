@@ -2025,11 +2025,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Escola\\POO\\teste\\Pit\\BlazorApp1\\BlazorApp1.Client\\BlazorApp1.Client.csproj",
+      "projectUniqueName": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\Pit\\BlazorApp1\\BlazorApp1.Client\\BlazorApp1.Client.csproj",
       "projectName": "BlazorApp1.Client",
-      "projectPath": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Escola\\POO\\teste\\Pit\\BlazorApp1\\BlazorApp1.Client\\BlazorApp1.Client.csproj",
+      "projectPath": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\Pit\\BlazorApp1\\BlazorApp1.Client\\BlazorApp1.Client.csproj",
       "packagesPath": "C:\\Users\\artho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Escola\\POO\\teste\\Pit\\BlazorApp1\\BlazorApp1.Client\\obj\\",
+      "outputPath": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\Pit\\BlazorApp1\\BlazorApp1.Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

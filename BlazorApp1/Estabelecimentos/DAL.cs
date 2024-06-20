@@ -1,25 +1,25 @@
-﻿using ControleDeEstabelecimenos.Modelos;
+﻿using ControleDeEstabelecimentos.Modelos;
 using Edmw.ApiInvokerHttpClient;
-namespace ControleDeEstabelecimenos.Dados
+namespace ControleDeEstabelecimentos.Dados
 {
     internal class DAL
     {
-        public IHttpContextAccessor HttpContextAccessor { get; set; }
-        public List<Estabelecimentos> ListarE()
+        //public IHttpContextAccessor HttpContextAccessor { get; set; }
+        public List<Estabelecimento> ListarE()
         {
 
-            var lista = new List<Estabelecimentos>
+            var lista = new List<Estabelecimento>
             {
-                new Estabelecimentos {}
+                new Estabelecimento {}
 
             };
                 return lista;
         }
-        public List<Clientes> ListarC()
+        public List<Usuario> ListarC()
         {
-            var lista = new List<Clientes>
+            var lista = new List<Usuario>
             {
-                new Clientes{}
+                new Usuario{}
 
             };
             return lista;

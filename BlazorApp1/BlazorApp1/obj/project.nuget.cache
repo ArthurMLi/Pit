@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v8LdmBDxYMM=",
+  "dgSpecHash": "OrwDDaQhIIg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Escola\\POO\\teste\\Pit\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
+  "projectFilePath": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\Pit\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\artho\\.nuget\\packages\\edmw.apiinvokerhttpclient\\1.0.0\\edmw.apiinvokerhttpclient.1.0.0.nupkg.sha512",
     "C:\\Users\\artho\\.nuget\\packages\\firesharp\\2.0.4\\firesharp.2.0.4.nupkg.sha512",

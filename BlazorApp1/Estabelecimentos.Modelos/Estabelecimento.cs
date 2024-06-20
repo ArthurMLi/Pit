@@ -1,6 +1,6 @@
-﻿namespace ControleDeEstabelecimenos.Modelos
+﻿namespace ControleDeEstabelecimentos.Modelos
 {
-    public class Estabelecimentos
+    public class Estabelecimento
     {
         public int Id { get; set; }
         public int NumeroFuncionario { get; set; }

@@ -1,6 +1,6 @@
-﻿namespace ControleDeEstabelecimenos.Modelos
+﻿namespace ControleDeEstabelecimentos.Modelos
 {
-    public class Clientes
+    public class Usuario
     {
         
         protected string Nome { get; set; }

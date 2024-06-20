@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ws5TYLbYY6k=",
+  "dgSpecHash": "DQ/AiiiW7yo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Escola\\POO\\teste\\Pit\\BlazorApp1\\BlazorApp1.Client\\BlazorApp1.Client.csproj",
+  "projectFilePath": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\Pit\\BlazorApp1\\BlazorApp1.Client\\BlazorApp1.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\artho\\.nuget\\packages\\edmw.apiinvokerhttpclient\\1.0.0\\edmw.apiinvokerhttpclient.1.0.0.nupkg.sha512",
     "C:\\Users\\artho\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.3\\microsoft.aspnetcore.authorization.8.0.3.nupkg.sha512",
