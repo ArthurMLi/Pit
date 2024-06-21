@@ -5157,3 +5157,18 @@ C:\Users\artho\OneDrive\Área de Trabalho\Pit\Pit\BlazorApp1\BlazorApp1.Client\o
 C:\Users\artho\OneDrive\Área de Trabalho\Pit\Pit\BlazorApp1\BlazorApp1.Client\obj\Debug\net8.0\refint\BlazorApp1.Client.dll
 C:\Users\artho\OneDrive\Área de Trabalho\Pit\Pit\BlazorApp1\BlazorApp1.Client\obj\Debug\net8.0\BlazorApp1.Client.pdb
 C:\Users\artho\OneDrive\Área de Trabalho\Pit\Pit\BlazorApp1\BlazorApp1.Client\obj\Debug\net8.0\ref\BlazorApp1.Client.dll
+D:\GitHub\Pit\BlazorApp1\BlazorApp1.Client\bin\Debug\net8.0\wwwroot\_framework\Edmw.ApiInvokerHttpClient.wasm
+D:\GitHub\Pit\BlazorApp1\BlazorApp1.Client\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Http.Features.wasm
+D:\GitHub\Pit\BlazorApp1\BlazorApp1.Client\bin\Debug\net8.0\wwwroot\_framework\Newtonsoft.Json.wasm
+D:\GitHub\Pit\BlazorApp1\BlazorApp1.Client\bin\Debug\net8.0\wwwroot\_framework\Edmw.ApiInvokerHttpClient.wasm.gz
+D:\GitHub\Pit\BlazorApp1\BlazorApp1.Client\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Http.Features.wasm.gz
+D:\GitHub\Pit\BlazorApp1\BlazorApp1.Client\bin\Debug\net8.0\wwwroot\_framework\Newtonsoft.Json.wasm.gz
+D:\GitHub\Pit\BlazorApp1\BlazorApp1.Client\bin\Debug\net8.0\Edmw.ApiInvokerHttpClient.dll
+D:\GitHub\Pit\BlazorApp1\BlazorApp1.Client\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Features.dll
+D:\GitHub\Pit\BlazorApp1\BlazorApp1.Client\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\GitHub\Pit\BlazorApp1\BlazorApp1.Client\obj\Debug\net8.0\webcil\Edmw.ApiInvokerHttpClient.wasm
+D:\GitHub\Pit\BlazorApp1\BlazorApp1.Client\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Http.Features.wasm
+D:\GitHub\Pit\BlazorApp1\BlazorApp1.Client\obj\Debug\net8.0\webcil\Newtonsoft.Json.wasm
+D:\GitHub\Pit\BlazorApp1\BlazorApp1.Client\obj\Debug\net8.0\compressed\1fcgaq0q9w.gz
+D:\GitHub\Pit\BlazorApp1\BlazorApp1.Client\obj\Debug\net8.0\compressed\cogfvjayiy.gz
+D:\GitHub\Pit\BlazorApp1\BlazorApp1.Client\obj\Debug\net8.0\compressed\kh0vutrmxp.gz

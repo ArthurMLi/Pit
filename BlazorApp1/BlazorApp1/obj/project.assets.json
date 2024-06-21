@@ -1809,23 +1809,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\artho\\.nuget\\packages\\": {},
+    "C:\\Users\\jcjco\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\Pit\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
+      "projectUniqueName": "D:\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
       "projectName": "BlazorApp1",
-      "projectPath": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\Pit\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
-      "packagesPath": "C:\\Users\\artho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\Pit\\BlazorApp1\\BlazorApp1\\obj\\",
+      "projectPath": "D:\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
+      "packagesPath": "C:\\Users\\jcjco\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\artho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jcjco\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1841,14 +1841,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\Pit\\BlazorApp1\\BlazorApp1.Client\\BlazorApp1.Client.csproj": {
-              "projectPath": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\Pit\\BlazorApp1\\BlazorApp1.Client\\BlazorApp1.Client.csproj"
+            "D:\\GitHub\\Pit\\BlazorApp1\\BlazorApp1.Client\\BlazorApp1.Client.csproj": {
+              "projectPath": "D:\\GitHub\\Pit\\BlazorApp1\\BlazorApp1.Client\\BlazorApp1.Client.csproj"
             },
-            "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\Pit\\BlazorApp1\\Estabelecimentos.Modelos\\ControleDeEstabelecimentos.Modelos.csproj": {
-              "projectPath": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\Pit\\BlazorApp1\\Estabelecimentos.Modelos\\ControleDeEstabelecimentos.Modelos.csproj"
+            "D:\\GitHub\\Pit\\BlazorApp1\\Estabelecimentos.Modelos\\ControleDeEstabelecimentos.Modelos.csproj": {
+              "projectPath": "D:\\GitHub\\Pit\\BlazorApp1\\Estabelecimentos.Modelos\\ControleDeEstabelecimentos.Modelos.csproj"
             },
-            "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\Pit\\BlazorApp1\\Estabelecimentos\\ControleDeEstabelecimentos.Dados.csproj": {
-              "projectPath": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\Pit\\BlazorApp1\\Estabelecimentos\\ControleDeEstabelecimentos.Dados.csproj"
+            "D:\\GitHub\\Pit\\BlazorApp1\\Estabelecimentos\\ControleDeEstabelecimentos.Dados.csproj": {
+              "projectPath": "D:\\GitHub\\Pit\\BlazorApp1\\Estabelecimentos\\ControleDeEstabelecimentos.Dados.csproj"
             }
           }
         }
@@ -1900,7 +1900,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   },

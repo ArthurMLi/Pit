@@ -17,3 +17,22 @@ C:\Users\artho\OneDrive\Área de Trabalho\Pit\Pit\BlazorApp1\Estabelecimentos\ob
 C:\Users\artho\OneDrive\Área de Trabalho\Pit\Pit\BlazorApp1\Estabelecimentos\obj\Debug\net8.0\refint\ControleDeEstabelecimentos.Dados.dll
 C:\Users\artho\OneDrive\Área de Trabalho\Pit\Pit\BlazorApp1\Estabelecimentos\obj\Debug\net8.0\ControleDeEstabelecimentos.Dados.pdb
 C:\Users\artho\OneDrive\Área de Trabalho\Pit\Pit\BlazorApp1\Estabelecimentos\obj\Debug\net8.0\ref\ControleDeEstabelecimentos.Dados.dll
+D:\GitHub\Pit\BlazorApp1\Estabelecimentos\bin\Debug\net8.0\BlazorApp1.Client.staticwebassets.runtime.json
+D:\GitHub\Pit\BlazorApp1\Estabelecimentos\bin\Debug\net8.0\ControleDeEstabelecimentos.Dados.deps.json
+D:\GitHub\Pit\BlazorApp1\Estabelecimentos\bin\Debug\net8.0\ControleDeEstabelecimentos.Dados.dll
+D:\GitHub\Pit\BlazorApp1\Estabelecimentos\bin\Debug\net8.0\ControleDeEstabelecimentos.Dados.pdb
+D:\GitHub\Pit\BlazorApp1\Estabelecimentos\bin\Debug\net8.0\BlazorApp1.Client.dll
+D:\GitHub\Pit\BlazorApp1\Estabelecimentos\bin\Debug\net8.0\ControleDeEstabelecimentos.Modelos.dll
+D:\GitHub\Pit\BlazorApp1\Estabelecimentos\bin\Debug\net8.0\BlazorApp1.Client.pdb
+D:\GitHub\Pit\BlazorApp1\Estabelecimentos\bin\Debug\net8.0\ControleDeEstabelecimentos.Modelos.pdb
+D:\GitHub\Pit\BlazorApp1\Estabelecimentos\obj\Debug\net8.0\ControleDeEstabelecimentos.Dados.csproj.AssemblyReference.cache
+D:\GitHub\Pit\BlazorApp1\Estabelecimentos\obj\Debug\net8.0\ControleDeEstabelecimentos.Dados.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\Pit\BlazorApp1\Estabelecimentos\obj\Debug\net8.0\ControleDeEstabelecimentos.Dados.AssemblyInfoInputs.cache
+D:\GitHub\Pit\BlazorApp1\Estabelecimentos\obj\Debug\net8.0\ControleDeEstabelecimentos.Dados.AssemblyInfo.cs
+D:\GitHub\Pit\BlazorApp1\Estabelecimentos\obj\Debug\net8.0\ControleDeEstabelecimentos.Dados.csproj.CoreCompileInputs.cache
+D:\GitHub\Pit\BlazorApp1\Estabelecimentos\obj\Debug\net8.0\ControleDeEstabelecimentos.Dados.sourcelink.json
+D:\GitHub\Pit\BlazorApp1\Estabelecimentos\obj\Debug\net8.0\Controle.CA1F4516.Up2Date
+D:\GitHub\Pit\BlazorApp1\Estabelecimentos\obj\Debug\net8.0\ControleDeEstabelecimentos.Dados.dll
+D:\GitHub\Pit\BlazorApp1\Estabelecimentos\obj\Debug\net8.0\refint\ControleDeEstabelecimentos.Dados.dll
+D:\GitHub\Pit\BlazorApp1\Estabelecimentos\obj\Debug\net8.0\ControleDeEstabelecimentos.Dados.pdb
+D:\GitHub\Pit\BlazorApp1\Estabelecimentos\obj\Debug\net8.0\ref\ControleDeEstabelecimentos.Dados.dll

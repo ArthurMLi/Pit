@@ -11,3 +11,16 @@ C:\Users\artho\OneDrive\Área de Trabalho\Pit\Pit\BlazorApp1\Estabelecimentos.Mo
 C:\Users\artho\OneDrive\Área de Trabalho\Pit\Pit\BlazorApp1\Estabelecimentos.Modelos\obj\Debug\net8.0\refint\ControleDeEstabelecimentos.Modelos.dll
 C:\Users\artho\OneDrive\Área de Trabalho\Pit\Pit\BlazorApp1\Estabelecimentos.Modelos\obj\Debug\net8.0\ControleDeEstabelecimentos.Modelos.pdb
 C:\Users\artho\OneDrive\Área de Trabalho\Pit\Pit\BlazorApp1\Estabelecimentos.Modelos\obj\Debug\net8.0\ref\ControleDeEstabelecimentos.Modelos.dll
+D:\GitHub\Pit\BlazorApp1\Estabelecimentos.Modelos\bin\Debug\net8.0\ControleDeEstabelecimentos.Modelos.deps.json
+D:\GitHub\Pit\BlazorApp1\Estabelecimentos.Modelos\bin\Debug\net8.0\ControleDeEstabelecimentos.Modelos.dll
+D:\GitHub\Pit\BlazorApp1\Estabelecimentos.Modelos\bin\Debug\net8.0\ControleDeEstabelecimentos.Modelos.pdb
+D:\GitHub\Pit\BlazorApp1\Estabelecimentos.Modelos\obj\Debug\net8.0\ControleDeEstabelecimentos.Modelos.csproj.AssemblyReference.cache
+D:\GitHub\Pit\BlazorApp1\Estabelecimentos.Modelos\obj\Debug\net8.0\ControleDeEstabelecimentos.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\Pit\BlazorApp1\Estabelecimentos.Modelos\obj\Debug\net8.0\ControleDeEstabelecimentos.Modelos.AssemblyInfoInputs.cache
+D:\GitHub\Pit\BlazorApp1\Estabelecimentos.Modelos\obj\Debug\net8.0\ControleDeEstabelecimentos.Modelos.AssemblyInfo.cs
+D:\GitHub\Pit\BlazorApp1\Estabelecimentos.Modelos\obj\Debug\net8.0\ControleDeEstabelecimentos.Modelos.csproj.CoreCompileInputs.cache
+D:\GitHub\Pit\BlazorApp1\Estabelecimentos.Modelos\obj\Debug\net8.0\ControleDeEstabelecimentos.Modelos.sourcelink.json
+D:\GitHub\Pit\BlazorApp1\Estabelecimentos.Modelos\obj\Debug\net8.0\ControleDeEstabelecimentos.Modelos.dll
+D:\GitHub\Pit\BlazorApp1\Estabelecimentos.Modelos\obj\Debug\net8.0\refint\ControleDeEstabelecimentos.Modelos.dll
+D:\GitHub\Pit\BlazorApp1\Estabelecimentos.Modelos\obj\Debug\net8.0\ControleDeEstabelecimentos.Modelos.pdb
+D:\GitHub\Pit\BlazorApp1\Estabelecimentos.Modelos\obj\Debug\net8.0\ref\ControleDeEstabelecimentos.Modelos.dll

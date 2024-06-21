@@ -333,3 +333,8 @@ C:\Users\artho\OneDrive\Área de Trabalho\Pit\Pit\BlazorApp1\BlazorApp1\obj\Debu
 C:\Users\artho\OneDrive\Área de Trabalho\Pit\Pit\BlazorApp1\BlazorApp1\obj\Debug\net8.0\BlazorApp1.csproj.Up2Date
 C:\Users\artho\OneDrive\Área de Trabalho\Pit\Pit\BlazorApp1\BlazorApp1\obj\Debug\net8.0\BlazorApp1.genruntimeconfig.cache
 C:\Users\artho\OneDrive\Área de Trabalho\Pit\Pit\BlazorApp1\BlazorApp1\obj\Debug\net8.0\ref\BlazorApp1.dll
+D:\GitHub\Pit\BlazorApp1\BlazorApp1\bin\Debug\net8.0\Edmw.ApiInvokerHttpClient.dll
+D:\GitHub\Pit\BlazorApp1\BlazorApp1\bin\Debug\net8.0\ControleDeEstabelecimentos.Dados.dll
+D:\GitHub\Pit\BlazorApp1\BlazorApp1\bin\Debug\net8.0\ControleDeEstabelecimentos.Modelos.dll
+D:\GitHub\Pit\BlazorApp1\BlazorApp1\bin\Debug\net8.0\ControleDeEstabelecimentos.Modelos.pdb
+D:\GitHub\Pit\BlazorApp1\BlazorApp1\bin\Debug\net8.0\ControleDeEstabelecimentos.Dados.pdb
