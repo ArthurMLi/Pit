@@ -2,10 +2,11 @@
 {
     public class Estabelecimento
     {
-        public int Id { get; set; }
-        public int NumeroFuncionario { get; set; }
-        public string Nome { get; set; }
-        public int CNPJ { get; set; }
-        
+        protected int Id { get; set; }
+        protected string Nome { get; set; }
+        private int Cnpj { get; set; }
+        protected string Descricao { get; set; }
+        protected string Logo { get; set; }
+
     }
 }

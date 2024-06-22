@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ControleDeEstabelecimentos.Dados")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a450e0fd524d7a828e1446bba3ccc01a91924370")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e17a7aac1da98fbd6937808b6d932a9fa653b41a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ControleDeEstabelecimentos.Dados")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ControleDeEstabelecimentos.Dados")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
