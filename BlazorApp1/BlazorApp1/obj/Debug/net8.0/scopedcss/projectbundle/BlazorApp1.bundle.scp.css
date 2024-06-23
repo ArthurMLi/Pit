@@ -275,3 +275,101 @@ button[b-8jyen0kfee] {
     border-color: #6a0dad;
 }
 
+/* _content/BlazorApp1/Components/Pages/Signup.razor.rz.scp.css */
+*[b-mhhccmwdkp] {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html[b-mhhccmwdkp] {
+    overflow-x: hidden;
+    background-color: #3a0647;
+}
+
+.signup-container[b-mhhccmwdkp] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-box[b-mhhccmwdkp] {
+    width: 400px;
+    background-color: #3a0647;
+    color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #6a0dad;
+    text-align: center;
+}
+
+    .signup-box h2[b-mhhccmwdkp] {
+        margin-bottom: 20px;
+    }
+
+.form-group[b-mhhccmwdkp] {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+    .form-group label[b-mhhccmwdkp] {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .form-group input[b-mhhccmwdkp] {
+        width: 100%;
+        padding: 8px;
+        font-size: 1rem;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+
+button[b-mhhccmwdkp] {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(75, 4, 93);
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    button:hover[b-mhhccmwdkp] {
+        background-color: rgb(87, 4, 101);
+    }
+
+.bottom-text[b-mhhccmwdkp] {
+    margin-top: 20px;
+}
+
+    .bottom-text p[b-mhhccmwdkp] {
+        color: #888888;
+        font-size: 0.9rem;
+    }
+
+    .bottom-text a[b-mhhccmwdkp] {
+        color: #ffffff;
+        text-decoration: underline;
+        transition: color 0.3s ease;
+    }
+
+        .bottom-text a:hover[b-mhhccmwdkp] {
+            color: #dddddd;
+        }
+
+/* media tela de signup para celulares */
+@media (max-width: 400px) {
+    .signup-box[b-mhhccmwdkp] {
+        width: 90%;
+        padding: 20px;
+    }
+
+    button[b-mhhccmwdkp] {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+}

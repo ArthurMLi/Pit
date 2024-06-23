@@ -23,6 +23,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Components\Layout\backlogin.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\BlazorApp1.Client\BlazorApp1.Client.csproj" />
     <ProjectReference Include="..\Estabelecimentos.Modelos\ControleDeEstabelecimentos.Modelos.csproj" />
     <ProjectReference Include="..\Estabelecimentos\ControleDeEstabelecimentos.Dados.csproj" />
@@ -38,10 +42,6 @@
 
   <ItemGroup>
     <_ContentIncludedByDefault Remove="Components\Pages\Login.razor" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Components\Pages\Login.razor" />
   </ItemGroup>
 
 </Project>
