@@ -2,12 +2,14 @@
 {
     public class Estabelecimento
     {
+        // Atributos
+        public int Id;
         protected string nome;
         private int cnpj;
         protected string descricao;
-        protected string logo;
-     
-        public int Id { get; set; }
+        private string logo;
+
+        // Props
         public string Nome { get { return this.nome; } set { this.nome = value; }}
         public int Cnpj { get { return this.cnpj; } set { this.cnpj = value; } }
         public string Descricao { get { return this.descricao; } set { this.descricao = value; } }

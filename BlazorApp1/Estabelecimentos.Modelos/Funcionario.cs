@@ -1,32 +1,30 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ControleDeEstabelecimentos.Modelos
+﻿namespace ControleDeEstabelecimentos.Modelos
 {
     public class Funcionario
     {
+        
+        // Atributos
         protected int id;
         protected string nome;
-        protected string email;
-        protected string telefone;
+        private string email;
+        protected int telefone;
+
+        //Props
         public int Id { get { return id; }  set { id = value; } }
         public string Nome { get { return nome; } set { nome = value; } }
         public string Email { get { return email; } set { email = value; } }
-        public string Telefone { get { return telefone; } set { telefone = value; } }
+        public int Telefone { get { return telefone; } set { telefone = value; } }
 
         // Metodos
-        protected void IniciarFila(int Id)
+        public void AbrirFila(int Id)
         {
 
         }
-        protected void FinalizarFila(int Id)
+        public void FecharFila(int Id)
         {
 
         }
-        protected string ChamarProximo(int Id, string NumeroFila)
+        public string ChamarProximo(int Id, string NumeroFila)
         {
             string ProximoNumero = NumeroFila;
             return ProximoNumero;

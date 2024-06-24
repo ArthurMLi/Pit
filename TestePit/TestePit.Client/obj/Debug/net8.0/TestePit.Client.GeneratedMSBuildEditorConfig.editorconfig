@@ -13,15 +13,15 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = TestePit.Client
 build_property.RootNamespace = TestePit.Client
-build_property.ProjectDir = C:\Users\rycav\OneDrive\Documents\GitHub\Pit\TestePit\TestePit.Client\
+build_property.ProjectDir = C:\Users\artho\OneDrive\Área de Trabalho\Pit-Branch\Pit\TestePit\TestePit.Client\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\rycav\OneDrive\Documents\GitHub\Pit\TestePit\TestePit.Client
+build_property.MSBuildProjectDirectory = C:\Users\artho\OneDrive\Área de Trabalho\Pit-Branch\Pit\TestePit\TestePit.Client
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/rycav/OneDrive/Documents/GitHub/Pit/TestePit/TestePit.Client/_Imports.razor]
+[C:/Users/artho/OneDrive/Área de Trabalho/Pit-Branch/Pit/TestePit/TestePit.Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

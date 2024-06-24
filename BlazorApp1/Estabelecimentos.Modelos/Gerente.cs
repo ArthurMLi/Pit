@@ -8,10 +8,12 @@ namespace ControleDeEstabelecimentos.Modelos
 {
     public class Gerente : Funcionario
     {
+        // Atibutos
         protected int id;
+        
+        // Props
         public int Id { get { return id;  } set { id = value; } }
 
-        // Metodos
-
+       
     }
 }
