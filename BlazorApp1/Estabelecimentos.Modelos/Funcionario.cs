@@ -8,10 +8,14 @@ namespace ControleDeEstabelecimentos.Modelos
 {
     public class Funcionario
     {
-        protected int Id { get; set; }
-        protected string Nome { get; set; }
-        private string Email { get; set; }
-        protected int Telefone { get; set; }
+        protected int id;
+        protected string nome;
+        protected string email;
+        protected string telefone;
+        public int Id { get { return id; }  set { id = value; } }
+        public string Nome { get { return nome; } set { nome = value; } }
+        public string Email { get { return email; } set { email = value; } }
+        public string Telefone { get { return telefone; } set { telefone = value; } }
 
         // Metodos
         protected void IniciarFila(int Id)

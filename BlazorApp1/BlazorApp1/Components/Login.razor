@@ -1,5 +1,5 @@
 ﻿@page "/Login"
-
+@using ControleDeEstabelecimentos.Modelos;
 <div class="login-container">
     <div class="login-box">
         <h2>Login</h2>
@@ -12,10 +12,29 @@
                 <label for="password">Senha:</label>
                 <input type="password" id="password" name="password" required>
             </div>
-            <a href="/"><button type="submit">Entrar</button></a>
+            <a><button type="submit" onclick="teste">Entrar</button></a>
+            
         </form>
         <div class="bottom-text">
             <p>Não tem uma conta? <a href="Signup">Registre-se aqui</a></p>
         </div>
     </div>
 </div>
+@{
+    
+}
+@code{
+
+
+    public class Teste : Usuario
+    {
+
+
+        public void teste() 
+        {
+            Usuario usuario = new Usuario();
+            usuario.Nome = this.username.Value;
+        }
+       
+    }
+}

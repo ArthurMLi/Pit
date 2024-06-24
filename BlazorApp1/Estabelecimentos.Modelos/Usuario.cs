@@ -2,21 +2,23 @@
 {
     public class Usuario
     {
-
-        protected string Nome { get; set; }
-        private string Email { get; set; }
-        public string NumeroFila { get; set; }
-        protected int Telefone { get; set; }
+        protected string nome;
+        private string email;
+        public string numerofila;
+        protected int telefone;
+        public string Nome { get { return nome; } set { nome = value; } }
+        public string Email { get { return email; } set { email = value; } }
+        protected int Telefone { get { return telefone; } set { telefone = value; } }
 
 
         // Metodos
         protected void EntrarFila(int IdFila, string NumeroFila)
         {
-            this.NumeroFila = NumeroFila;
+            this.numerofila = NumeroFila;
         }
         protected string SairFila(int IdFila)
         {
-            return this.NumeroFila;
+            return this.numerofila;
         }
         protected int AvaliarFila(int IdFila)
         {

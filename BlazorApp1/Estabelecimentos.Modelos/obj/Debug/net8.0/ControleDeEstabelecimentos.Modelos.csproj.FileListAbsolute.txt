@@ -24,3 +24,16 @@ D:\GitHub\Pit\BlazorApp1\Estabelecimentos.Modelos\obj\Debug\net8.0\ControleDeEst
 D:\GitHub\Pit\BlazorApp1\Estabelecimentos.Modelos\obj\Debug\net8.0\refint\ControleDeEstabelecimentos.Modelos.dll
 D:\GitHub\Pit\BlazorApp1\Estabelecimentos.Modelos\obj\Debug\net8.0\ControleDeEstabelecimentos.Modelos.pdb
 D:\GitHub\Pit\BlazorApp1\Estabelecimentos.Modelos\obj\Debug\net8.0\ref\ControleDeEstabelecimentos.Modelos.dll
+C:\Users\artho\OneDrive\Área de Trabalho\Pit\BlazorApp1\Estabelecimentos.Modelos\bin\Debug\net8.0\ControleDeEstabelecimentos.Modelos.deps.json
+C:\Users\artho\OneDrive\Área de Trabalho\Pit\BlazorApp1\Estabelecimentos.Modelos\bin\Debug\net8.0\ControleDeEstabelecimentos.Modelos.dll
+C:\Users\artho\OneDrive\Área de Trabalho\Pit\BlazorApp1\Estabelecimentos.Modelos\bin\Debug\net8.0\ControleDeEstabelecimentos.Modelos.pdb
+C:\Users\artho\OneDrive\Área de Trabalho\Pit\BlazorApp1\Estabelecimentos.Modelos\obj\Debug\net8.0\ControleDeEstabelecimentos.Modelos.csproj.AssemblyReference.cache
+C:\Users\artho\OneDrive\Área de Trabalho\Pit\BlazorApp1\Estabelecimentos.Modelos\obj\Debug\net8.0\ControleDeEstabelecimentos.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\artho\OneDrive\Área de Trabalho\Pit\BlazorApp1\Estabelecimentos.Modelos\obj\Debug\net8.0\ControleDeEstabelecimentos.Modelos.AssemblyInfoInputs.cache
+C:\Users\artho\OneDrive\Área de Trabalho\Pit\BlazorApp1\Estabelecimentos.Modelos\obj\Debug\net8.0\ControleDeEstabelecimentos.Modelos.AssemblyInfo.cs
+C:\Users\artho\OneDrive\Área de Trabalho\Pit\BlazorApp1\Estabelecimentos.Modelos\obj\Debug\net8.0\ControleDeEstabelecimentos.Modelos.csproj.CoreCompileInputs.cache
+C:\Users\artho\OneDrive\Área de Trabalho\Pit\BlazorApp1\Estabelecimentos.Modelos\obj\Debug\net8.0\ControleDeEstabelecimentos.Modelos.sourcelink.json
+C:\Users\artho\OneDrive\Área de Trabalho\Pit\BlazorApp1\Estabelecimentos.Modelos\obj\Debug\net8.0\ControleDeEstabelecimentos.Modelos.dll
+C:\Users\artho\OneDrive\Área de Trabalho\Pit\BlazorApp1\Estabelecimentos.Modelos\obj\Debug\net8.0\refint\ControleDeEstabelecimentos.Modelos.dll
+C:\Users\artho\OneDrive\Área de Trabalho\Pit\BlazorApp1\Estabelecimentos.Modelos\obj\Debug\net8.0\ControleDeEstabelecimentos.Modelos.pdb
+C:\Users\artho\OneDrive\Área de Trabalho\Pit\BlazorApp1\Estabelecimentos.Modelos\obj\Debug\net8.0\ref\ControleDeEstabelecimentos.Modelos.dll

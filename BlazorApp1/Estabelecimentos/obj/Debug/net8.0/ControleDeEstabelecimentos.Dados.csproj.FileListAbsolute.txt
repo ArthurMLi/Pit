@@ -36,3 +36,22 @@ D:\GitHub\Pit\BlazorApp1\Estabelecimentos\obj\Debug\net8.0\ControleDeEstabelecim
 D:\GitHub\Pit\BlazorApp1\Estabelecimentos\obj\Debug\net8.0\refint\ControleDeEstabelecimentos.Dados.dll
 D:\GitHub\Pit\BlazorApp1\Estabelecimentos\obj\Debug\net8.0\ControleDeEstabelecimentos.Dados.pdb
 D:\GitHub\Pit\BlazorApp1\Estabelecimentos\obj\Debug\net8.0\ref\ControleDeEstabelecimentos.Dados.dll
+C:\Users\artho\OneDrive\Área de Trabalho\Pit\BlazorApp1\Estabelecimentos\bin\Debug\net8.0\BlazorApp1.Client.staticwebassets.runtime.json
+C:\Users\artho\OneDrive\Área de Trabalho\Pit\BlazorApp1\Estabelecimentos\bin\Debug\net8.0\ControleDeEstabelecimentos.Dados.deps.json
+C:\Users\artho\OneDrive\Área de Trabalho\Pit\BlazorApp1\Estabelecimentos\bin\Debug\net8.0\ControleDeEstabelecimentos.Dados.dll
+C:\Users\artho\OneDrive\Área de Trabalho\Pit\BlazorApp1\Estabelecimentos\bin\Debug\net8.0\ControleDeEstabelecimentos.Dados.pdb
+C:\Users\artho\OneDrive\Área de Trabalho\Pit\BlazorApp1\Estabelecimentos\bin\Debug\net8.0\BlazorApp1.Client.dll
+C:\Users\artho\OneDrive\Área de Trabalho\Pit\BlazorApp1\Estabelecimentos\bin\Debug\net8.0\ControleDeEstabelecimentos.Modelos.dll
+C:\Users\artho\OneDrive\Área de Trabalho\Pit\BlazorApp1\Estabelecimentos\bin\Debug\net8.0\BlazorApp1.Client.pdb
+C:\Users\artho\OneDrive\Área de Trabalho\Pit\BlazorApp1\Estabelecimentos\bin\Debug\net8.0\ControleDeEstabelecimentos.Modelos.pdb
+C:\Users\artho\OneDrive\Área de Trabalho\Pit\BlazorApp1\Estabelecimentos\obj\Debug\net8.0\ControleDeEstabelecimentos.Dados.csproj.AssemblyReference.cache
+C:\Users\artho\OneDrive\Área de Trabalho\Pit\BlazorApp1\Estabelecimentos\obj\Debug\net8.0\ControleDeEstabelecimentos.Dados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\artho\OneDrive\Área de Trabalho\Pit\BlazorApp1\Estabelecimentos\obj\Debug\net8.0\ControleDeEstabelecimentos.Dados.AssemblyInfoInputs.cache
+C:\Users\artho\OneDrive\Área de Trabalho\Pit\BlazorApp1\Estabelecimentos\obj\Debug\net8.0\ControleDeEstabelecimentos.Dados.AssemblyInfo.cs
+C:\Users\artho\OneDrive\Área de Trabalho\Pit\BlazorApp1\Estabelecimentos\obj\Debug\net8.0\ControleDeEstabelecimentos.Dados.csproj.CoreCompileInputs.cache
+C:\Users\artho\OneDrive\Área de Trabalho\Pit\BlazorApp1\Estabelecimentos\obj\Debug\net8.0\ControleDeEstabelecimentos.Dados.sourcelink.json
+C:\Users\artho\OneDrive\Área de Trabalho\Pit\BlazorApp1\Estabelecimentos\obj\Debug\net8.0\Controle.CA1F4516.Up2Date
+C:\Users\artho\OneDrive\Área de Trabalho\Pit\BlazorApp1\Estabelecimentos\obj\Debug\net8.0\ControleDeEstabelecimentos.Dados.dll
+C:\Users\artho\OneDrive\Área de Trabalho\Pit\BlazorApp1\Estabelecimentos\obj\Debug\net8.0\refint\ControleDeEstabelecimentos.Dados.dll
+C:\Users\artho\OneDrive\Área de Trabalho\Pit\BlazorApp1\Estabelecimentos\obj\Debug\net8.0\ControleDeEstabelecimentos.Dados.pdb
+C:\Users\artho\OneDrive\Área de Trabalho\Pit\BlazorApp1\Estabelecimentos\obj\Debug\net8.0\ref\ControleDeEstabelecimentos.Dados.dll

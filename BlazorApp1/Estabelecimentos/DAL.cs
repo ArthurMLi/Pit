@@ -3,10 +3,10 @@ using BlazorApp1;
 using Edmw.ApiInvokerHttpClient;
 namespace ControleDeEstabelecimentos.Dados
 {
-    internal class DAL
+    internal class DAL<T> where T : class
     {
 
-        //public IHttpContextAccessor HttpContextAccessor { get; set; }
+       
         public List<Estabelecimento> ListarE()
         {
 

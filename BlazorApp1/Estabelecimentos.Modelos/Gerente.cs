@@ -8,10 +8,10 @@ namespace ControleDeEstabelecimentos.Modelos
 {
     public class Gerente : Funcionario
     {
-        protected int Id { get; set; }
-
+        protected int id;
+        public int Id { get { return id;  } set { id = value; } }
 
         // Metodos
-        
+
     }
 }

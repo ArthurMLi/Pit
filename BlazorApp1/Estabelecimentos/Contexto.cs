@@ -2,7 +2,7 @@
 using ControleDeEstabelecimentos.Modelos;
 namespace ControleDeEstabelecimentos.Dados
 {
-    internal class Contexto : DbContext
+    public class Contexto : DbContext
     {
         public Contexto(DbContextOptions options) : base(options) { }
 
