@@ -377,6 +377,7 @@
       },
       "ControleDeEstabelecimentos.Modelos/1.0.0": {
         "dependencies": {
+          "BlazorApp1.Client": "1.0.0",
           "Edmw.ApiInvokerHttpClient": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Newtonsoft.Json": "13.0.3"

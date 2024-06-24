@@ -9,43 +9,47 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazorApp1
 build_property.RootNamespace = BlazorApp1
-build_property.ProjectDir = C:\Users\rycav\OneDrive\Documents\GitHub\Pit\BlazorApp1\BlazorApp1\
+build_property.ProjectDir = C:\Users\artho\OneDrive\Área de Trabalho\Pit-Branch\Pit\BlazorApp1\BlazorApp1\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\rycav\OneDrive\Documents\GitHub\Pit\BlazorApp1\BlazorApp1
+build_property.MSBuildProjectDirectory = C:\Users\artho\OneDrive\Área de Trabalho\Pit-Branch\Pit\BlazorApp1\BlazorApp1
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/rycav/OneDrive/Documents/GitHub/Pit/BlazorApp1/BlazorApp1/Components/App.razor]
+[C:/Users/artho/OneDrive/Área de Trabalho/Pit-Branch/Pit/BlazorApp1/BlazorApp1/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rycav/OneDrive/Documents/GitHub/Pit/BlazorApp1/BlazorApp1/Components/Pages/Error.razor]
+[C:/Users/artho/OneDrive/Área de Trabalho/Pit-Branch/Pit/BlazorApp1/BlazorApp1/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rycav/OneDrive/Documents/GitHub/Pit/BlazorApp1/BlazorApp1/Components/Routes.razor]
+[C:/Users/artho/OneDrive/Área de Trabalho/Pit-Branch/Pit/BlazorApp1/BlazorApp1/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rycav/OneDrive/Documents/GitHub/Pit/BlazorApp1/BlazorApp1/Components/_Imports.razor]
+[C:/Users/artho/OneDrive/Área de Trabalho/Pit-Branch/Pit/BlazorApp1/BlazorApp1/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rycav/OneDrive/Documents/GitHub/Pit/BlazorApp1/BlazorApp1/Components/Layout/MainLayout.razor]
+[C:/Users/artho/OneDrive/Área de Trabalho/Pit-Branch/Pit/BlazorApp1/BlazorApp1/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-j65y7q72mt
 
-[C:/Users/rycav/OneDrive/Documents/GitHub/Pit/BlazorApp1/BlazorApp1/Components/Layout/NavMenu.razor]
+[C:/Users/artho/OneDrive/Área de Trabalho/Pit-Branch/Pit/BlazorApp1/BlazorApp1/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-5bndfk4shp
 
-[C:/Users/rycav/OneDrive/Documents/GitHub/Pit/BlazorApp1/BlazorApp1/Components/Login.razor]
+[C:/Users/artho/OneDrive/Área de Trabalho/Pit-Branch/Pit/BlazorApp1/BlazorApp1/Components/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMb2dpbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-8jyen0kfee
 
-[C:/Users/rycav/OneDrive/Documents/GitHub/Pit/BlazorApp1/BlazorApp1/Components/Pages/Home.razor]
+[C:/Users/artho/OneDrive/Área de Trabalho/Pit-Branch/Pit/BlazorApp1/BlazorApp1/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-x0adpbawup
+
+[C:/Users/artho/OneDrive/Área de Trabalho/Pit-Branch/Pit/BlazorApp1/BlazorApp1/Components/Pages/Signup.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTaWdudXAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-mhhccmwdkp

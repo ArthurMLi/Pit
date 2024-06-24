@@ -12,6 +12,6 @@
         public string Nome { get { return nome; } set { nome = value; } }
         public string Email { get { return email; } set { email = value; } }
         protected int Telefone { get { return telefone; } set { telefone = value; } }
-
+        
     }
 }

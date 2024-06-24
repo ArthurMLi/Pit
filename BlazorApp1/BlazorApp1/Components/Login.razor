@@ -1,4 +1,5 @@
 ﻿@page "/Login"
+@rendermode InteractiveServer
 @using ControleDeEstabelecimentos.Modelos;
 <div class="login-container">
     <div class="login-box">
@@ -6,13 +7,13 @@
         <form>
             <div class="form-group">
                 <label for="username">Usuário:</label>
-                <input type="text" id="username" name="username" required>
+                <input type="text" id="username" name="username" @bind="teste1" required>
             </div>
             <div class="form-group">
                 <label for="password">Senha:</label>
-                <input type="password" id="password" name="password" required>
+                <input type="password" id="password" name="password" @bind="teste2" required>
             </div>
-            <a><button type="submit" onclick="teste">Entrar</button></a>
+            <button type="submit">Entrar</button>
             
         </form>
         <div class="bottom-text">
@@ -23,18 +24,10 @@
 @{
     
 }
-@code{
+@code
+{
+    public string? teste1;
+    public string? teste2;
 
-
-    public class Teste : Usuario
-    {
-
-
-        public void teste() 
-        {
-            Usuario usuario = new Usuario();
-            usuario.Nome = this.username.Value;
-        }
-       
-    }
+   
 }
