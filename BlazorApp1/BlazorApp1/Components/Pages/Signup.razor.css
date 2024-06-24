@@ -1,0 +1,97 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+    background-color: #3a0647;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-box {
+    width: 400px;
+    background-color: #3a0647;
+    color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #6a0dad;
+    text-align: center;
+}
+
+    .signup-box h2 {
+        margin-bottom: 20px;
+    }
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .form-group input {
+        width: 100%;
+        padding: 8px;
+        font-size: 1rem;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(75, 4, 93);
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    button:hover {
+        background-color: rgb(87, 4, 101);
+    }
+
+.bottom-text {
+    margin-top: 20px;
+}
+
+    .bottom-text p {
+        color: #888888;
+        font-size: 0.9rem;
+    }
+
+    .bottom-text a {
+        color: #ffffff;
+        text-decoration: underline;
+        transition: color 0.3s ease;
+    }
+
+        .bottom-text a:hover {
+            color: #dddddd;
+        }
+
+/* media tela de signup para celulares */
+@media (max-width: 400px) {
+    .signup-box {
+        width: 90%;
+        padding: 20px;
+    }
+
+    button {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+}

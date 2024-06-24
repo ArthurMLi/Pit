@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\Pit\\Pit\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj": {}
+    "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\Pit\\Pit\\BlazorApp1\\BlazorApp1.Client\\BlazorApp1.Client.csproj": {
+    "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\BlazorApp1\\BlazorApp1.Client\\BlazorApp1.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\Pit\\Pit\\BlazorApp1\\BlazorApp1.Client\\BlazorApp1.Client.csproj",
+        "projectUniqueName": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\BlazorApp1\\BlazorApp1.Client\\BlazorApp1.Client.csproj",
         "projectName": "BlazorApp1.Client",
-        "projectPath": "D:\\GitHub\\Pit\\Pit\\BlazorApp1\\BlazorApp1.Client\\BlazorApp1.Client.csproj",
-        "packagesPath": "C:\\Users\\jcjco\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\Pit\\Pit\\BlazorApp1\\BlazorApp1.Client\\obj\\",
+        "projectPath": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\BlazorApp1\\BlazorApp1.Client\\BlazorApp1.Client.csproj",
+        "packagesPath": "C:\\Users\\artho\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\BlazorApp1\\BlazorApp1.Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jcjco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\artho\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -50,20 +50,28 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Edmw.ApiInvokerHttpClient": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[8.0.3, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.2, )",
+              "version": "[8.0.5, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.2, )",
+              "version": "[8.0.5, )",
               "autoReferenced": true
             }
           },
@@ -81,7 +89,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[8.0.2, 8.0.2]"
+              "version": "[8.0.5, 8.0.5]"
             }
           ],
           "frameworkReferences": {
@@ -89,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -98,20 +106,20 @@
         }
       }
     },
-    "D:\\GitHub\\Pit\\Pit\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj": {
+    "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\Pit\\Pit\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
+        "projectUniqueName": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
         "projectName": "BlazorApp1",
-        "projectPath": "D:\\GitHub\\Pit\\Pit\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
-        "packagesPath": "C:\\Users\\jcjco\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\Pit\\Pit\\BlazorApp1\\BlazorApp1\\obj\\",
+        "projectPath": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
+        "packagesPath": "C:\\Users\\artho\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\BlazorApp1\\BlazorApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jcjco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\artho\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -127,8 +135,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\GitHub\\Pit\\Pit\\BlazorApp1\\BlazorApp1.Client\\BlazorApp1.Client.csproj": {
-                "projectPath": "D:\\GitHub\\Pit\\Pit\\BlazorApp1\\BlazorApp1.Client\\BlazorApp1.Client.csproj"
+              "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\BlazorApp1\\BlazorApp1.Client\\BlazorApp1.Client.csproj": {
+                "projectPath": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\BlazorApp1\\BlazorApp1.Client\\BlazorApp1.Client.csproj"
+              },
+              "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\BlazorApp1\\Estabelecimentos.Modelos\\ControleDeEstabelecimentos.Modelos.csproj": {
+                "projectPath": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\BlazorApp1\\Estabelecimentos.Modelos\\ControleDeEstabelecimentos.Modelos.csproj"
+              },
+              "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\BlazorApp1\\Estabelecimentos\\ControleDeEstabelecimentos.Dados.csproj": {
+                "projectPath": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\BlazorApp1\\Estabelecimentos\\ControleDeEstabelecimentos.Dados.csproj"
               }
             }
           }
@@ -148,6 +162,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Edmw.ApiInvokerHttpClient": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "FireSharp": {
               "target": "Package",
               "version": "[2.0.4, )"
@@ -155,6 +173,10 @@
             "Microsoft.AspNetCore.Components.WebAssembly.Server": {
               "target": "Package",
               "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
             }
           },
           "imports": [
@@ -176,7 +198,168 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\BlazorApp1\\Estabelecimentos.Modelos\\ControleDeEstabelecimentos.Modelos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\BlazorApp1\\Estabelecimentos.Modelos\\ControleDeEstabelecimentos.Modelos.csproj",
+        "projectName": "ControleDeEstabelecimentos.Modelos",
+        "projectPath": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\BlazorApp1\\Estabelecimentos.Modelos\\ControleDeEstabelecimentos.Modelos.csproj",
+        "packagesPath": "C:\\Users\\artho\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\BlazorApp1\\Estabelecimentos.Modelos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\artho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Edmw.ApiInvokerHttpClient": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\BlazorApp1\\Estabelecimentos\\ControleDeEstabelecimentos.Dados.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\BlazorApp1\\Estabelecimentos\\ControleDeEstabelecimentos.Dados.csproj",
+        "projectName": "ControleDeEstabelecimentos.Dados",
+        "projectPath": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\BlazorApp1\\Estabelecimentos\\ControleDeEstabelecimentos.Dados.csproj",
+        "packagesPath": "C:\\Users\\artho\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\BlazorApp1\\Estabelecimentos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\artho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\BlazorApp1\\BlazorApp1.Client\\BlazorApp1.Client.csproj": {
+                "projectPath": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\BlazorApp1\\BlazorApp1.Client\\BlazorApp1.Client.csproj"
+              },
+              "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\BlazorApp1\\Estabelecimentos.Modelos\\ControleDeEstabelecimentos.Modelos.csproj": {
+                "projectPath": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit\\BlazorApp1\\Estabelecimentos.Modelos\\ControleDeEstabelecimentos.Modelos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Edmw.ApiInvokerHttpClient": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -23,9 +23,17 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Components\Layout\backlogin.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\BlazorApp1.Client\BlazorApp1.Client.csproj" />
+    <ProjectReference Include="..\Estabelecimentos.Modelos\ControleDeEstabelecimentos.Modelos.csproj" />
+    <ProjectReference Include="..\Estabelecimentos\ControleDeEstabelecimentos.Dados.csproj" />
+    <PackageReference Include="Edmw.ApiInvokerHttpClient" Version="1.0.0" />
     <PackageReference Include="FireSharp" Version="2.0.4" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.6" />
   </ItemGroup>
 
   <ItemGroup>
@@ -34,10 +42,6 @@
 
   <ItemGroup>
     <_ContentIncludedByDefault Remove="Components\Pages\Login.razor" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Components\Pages\Login.razor" />
   </ItemGroup>
 
 </Project>
