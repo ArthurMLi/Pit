@@ -7,9 +7,10 @@ page {
 
 }
 main {
-    
     padding-top: 3.5rem;
-    background-color: #280331;
+    background-image: url("./background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 3000px;
     overflow: hidden;
 }

@@ -1,17 +1,26 @@
 ﻿.card {
-    background-color: #3a0647;
-    border: 2px solid #6a0dad;
+   
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #aacce3;
+    border-radius: 20px;
 }
 .col-md-8 h1 {
-    color: white;
+    color: #808080;
 }
 .col-md-8 h5 {
-    color: white;
+    color: #808080;
 }
 .col-md-8 p {
-    color: white;
+    color: #808080  ;
 }
-.col-md-8 div{
-    border-color: #6a0dad;
+.col-md-8 div {
+    border-color: #aacce3;
 }
-
+.col-md-4 img {
+    width: 9em;
+}
+.btn-primary {
+    border-radius: 15px;
+}

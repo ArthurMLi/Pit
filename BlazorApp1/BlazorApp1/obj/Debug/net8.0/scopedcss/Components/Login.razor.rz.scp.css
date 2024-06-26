@@ -3,9 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body[b-8jyen0kfee] {
+    overflow-y: hidden;
+}
 html[b-8jyen0kfee] {
-    overflow-x: hidden;
+    overflow-y: hidden;
     background-color: #3a0647;
 }
 
@@ -18,11 +20,13 @@ html[b-8jyen0kfee] {
 
 .login-box[b-8jyen0kfee] {
     width: 400px;
-    background-color: #3a0647;
-    color: #ffffff;
-    padding: 40px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px #6a0dad;
+    background-color: white;
+    color: #808080;
+    padding: 30px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #2e9fea;
     text-align: center;
 }
 
@@ -31,9 +35,12 @@ html[b-8jyen0kfee] {
     }
 
 .form-group[b-8jyen0kfee] {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     text-align: left;
 }
+    form placeholder[b-8jyen0kfee] {
+        color: #bcbcbc;
+    }
 
     .form-group label[b-8jyen0kfee] {
         display: block;
@@ -45,23 +52,23 @@ html[b-8jyen0kfee] {
         padding: 8px;
         font-size: 1rem;
         border: 1px solid #ddd;
-        border-radius: 4px;
+        border-radius: 20px;
     }
 
 button[b-8jyen0kfee] {
     width: 100%;
     padding: 10px;
-    background-color: rgb(75, 4, 93);
+    background-color: #66b1e3;
     color: #ffffff;
     border: none;
-    border-radius: 4px;
+    border-radius: 20px;
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
     button:hover[b-8jyen0kfee] {
-        background-color: rgb(87, 4, 101);
+        background-color: #4fa7e2;
     }
 
 .bottom-text[b-8jyen0kfee] {
@@ -69,18 +76,18 @@ button[b-8jyen0kfee] {
 }
 
     .bottom-text p[b-8jyen0kfee] {
-        color: #888888;
+        color: #66b1e3;
         font-size: 0.9rem;
     }
 
     .bottom-text a[b-8jyen0kfee] {
-        color: #ffffff;
+        color: #808080;
         text-decoration: underline;
         transition: color 0.3s ease;
     }
 
         .bottom-text a:hover[b-8jyen0kfee] {
-            color: #dddddd;
+            color: #9a9a9a;
         }
 
 /* media tela de login para celulares */

@@ -1,27 +1,31 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit-Branch\\Pit\\BlazorApp1\\BlazorApp1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorApp1.bundle.scp.css",
+      "Id": "D:\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorApp1.bundle.scp.css",
       "PackagePath": "staticwebassets\\BlazorApp1.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit-Branch\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\app.css",
+      "Id": "D:\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit-Branch\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "D:\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\background.png",
+      "PackagePath": "staticwebassets\\background.png"
+    },
+    {
+      "Id": "D:\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit-Branch\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "D:\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit-Branch\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\favicon.png",
+      "Id": "D:\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\artho\\OneDrive\\Área de Trabalho\\Pit-Branch\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\mcdonalds.png",
+      "Id": "D:\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\mcdonalds.png",
       "PackagePath": "staticwebassets\\mcdonalds.png"
     },
     {
