@@ -6,7 +6,7 @@ namespace ControleDeEstabelecimentos.Dados
     {
         public Contexto(DbContextOptions options) : base(options) { }
 
-        public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Conta> Conta { get; set; }
         public DbSet<Gerente> Gerentes { get; set; }
         public DbSet<Estabelecimento> Estabelecimentos { get; set; }
     }
