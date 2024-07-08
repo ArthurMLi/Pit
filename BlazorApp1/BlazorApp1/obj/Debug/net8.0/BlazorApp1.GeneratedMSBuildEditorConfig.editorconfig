@@ -30,10 +30,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQYWdpbmFFc3RhYmVsZWNpbWVudG9zLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rycav/OneDrive/Documents/GitHub/Pit/BlazorApp1/BlazorApp1/Components/Pages/PaginaFila.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQYWdpbmFGaWxhLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/rycav/OneDrive/Documents/GitHub/Pit/BlazorApp1/BlazorApp1/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -57,6 +53,10 @@ build_metadata.AdditionalFiles.CssScope = b-8jyen0kfee
 [C:/Users/rycav/OneDrive/Documents/GitHub/Pit/BlazorApp1/BlazorApp1/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-x0adpbawup
+
+[C:/Users/rycav/OneDrive/Documents/GitHub/Pit/BlazorApp1/BlazorApp1/Components/Pages/PaginaFila.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQYWdpbmFGaWxhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-rln0ym50am
 
 [C:/Users/rycav/OneDrive/Documents/GitHub/Pit/BlazorApp1/BlazorApp1/Components/Pages/Signup.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTaWdudXAucmF6b3I=
