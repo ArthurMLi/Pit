@@ -1,67 +1,67 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\rycav\\OneDrive\\Documents\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorApp1.bundle.scp.css",
+      "Id": "D:\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorApp1.bundle.scp.css",
       "PackagePath": "staticwebassets\\BlazorApp1.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\rycav\\OneDrive\\Documents\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\BabyBeef.png",
+      "Id": "D:\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\BabyBeef.png",
       "PackagePath": "staticwebassets\\BabyBeef.png"
     },
     {
-      "Id": "C:\\Users\\rycav\\OneDrive\\Documents\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\BancoBrasil.svg",
-      "PackagePath": "staticwebassets\\BancoBrasil.svg"
+      "Id": "D:\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\BancoBrasil.png",
+      "PackagePath": "staticwebassets\\BancoBrasil.png"
     },
     {
-      "Id": "C:\\Users\\rycav\\OneDrive\\Documents\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\Bh.png",
+      "Id": "D:\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\Bh.png",
       "PackagePath": "staticwebassets\\Bh.png"
     },
     {
-      "Id": "C:\\Users\\rycav\\OneDrive\\Documents\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\BurguerKing.png",
-      "PackagePath": "staticwebassets\\BurguerKing.png"
-    },
-    {
-      "Id": "C:\\Users\\rycav\\OneDrive\\Documents\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\DetranMg.png",
+      "Id": "D:\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\DetranMg.png",
       "PackagePath": "staticwebassets\\DetranMg.png"
     },
     {
-      "Id": "C:\\Users\\rycav\\OneDrive\\Documents\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\Itau.png",
+      "Id": "D:\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\Itau.png",
       "PackagePath": "staticwebassets\\Itau.png"
     },
     {
-      "Id": "C:\\Users\\rycav\\OneDrive\\Documents\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\Kfc.jpg",
-      "PackagePath": "staticwebassets\\Kfc.jpg"
-    },
-    {
-      "Id": "C:\\Users\\rycav\\OneDrive\\Documents\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\MaterDei.png",
+      "Id": "D:\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\MaterDei.png",
       "PackagePath": "staticwebassets\\MaterDei.png"
     },
     {
-      "Id": "C:\\Users\\rycav\\OneDrive\\Documents\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\Santander.png",
+      "Id": "D:\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\Santander.png",
       "PackagePath": "staticwebassets\\Santander.png"
     },
     {
-      "Id": "C:\\Users\\rycav\\OneDrive\\Documents\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\app.css",
+      "Id": "D:\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\Users\\rycav\\OneDrive\\Documents\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\background.png",
+      "Id": "D:\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\background.png",
       "PackagePath": "staticwebassets\\background.png"
     },
     {
-      "Id": "C:\\Users\\rycav\\OneDrive\\Documents\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "D:\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\bk.png",
+      "PackagePath": "staticwebassets\\bk.png"
+    },
+    {
+      "Id": "D:\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\rycav\\OneDrive\\Documents\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "D:\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\rycav\\OneDrive\\Documents\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\favicon.png",
+      "Id": "D:\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\rycav\\OneDrive\\Documents\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\mcdonalds.png",
+      "Id": "D:\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\kfc.png",
+      "PackagePath": "staticwebassets\\kfc.png"
+    },
+    {
+      "Id": "D:\\GitHub\\Pit\\BlazorApp1\\BlazorApp1\\wwwroot\\mcdonalds.png",
       "PackagePath": "staticwebassets\\mcdonalds.png"
     },
     {

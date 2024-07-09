@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ControleDeEstabelecimentos.Modelos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4a7678f1ee2d9273ffc164f226db1b331697077")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6935f883fc79d350b34a2c6d67f8c54428b7e767")]
 [assembly: System.Reflection.AssemblyProductAttribute("ControleDeEstabelecimentos.Modelos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ControleDeEstabelecimentos.Modelos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

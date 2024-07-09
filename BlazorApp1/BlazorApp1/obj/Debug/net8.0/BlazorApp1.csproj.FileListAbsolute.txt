@@ -570,3 +570,4 @@ C:\Users\rycav\OneDrive\Documents\GitHub\Pit\BlazorApp1\BlazorApp1\obj\Debug\net
 C:\Users\rycav\OneDrive\Documents\GitHub\Pit\BlazorApp1\BlazorApp1\obj\Debug\net8.0\BlazorApp1.genruntimeconfig.cache
 C:\Users\rycav\OneDrive\Documents\GitHub\Pit\BlazorApp1\BlazorApp1\obj\Debug\net8.0\ref\BlazorApp1.dll
 C:\Users\rycav\OneDrive\Documents\GitHub\Pit\BlazorApp1\BlazorApp1\obj\Debug\net8.0\scopedcss\Components\Pages\PaginaFila.razor.rz.scp.css
+D:\GitHub\Pit\BlazorApp1\BlazorApp1\obj\Debug\net8.0\scopedcss\Components\Pages\PaginaFila.razor.rz.scp.css
