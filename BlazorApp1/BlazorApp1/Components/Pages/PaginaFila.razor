@@ -1,15 +1,95 @@
-﻿@page "/PaginaFila"
-
+﻿@page "/PaginaFila/{Teste:int}"
 @rendermode InteractiveAuto
-
+@code {
+    [Parameter]
+    public int Teste { get; set; }
+}
 <div class="card mb-3" >
-    <img src="./mcdonalds.png" style="width: 15rem;" class="card-img-top" alt="...">
-    <div class="card-body">
-        <h5 class="card-title">Mc Donalds</h5>
+    @switch(Teste){
+        case 1:
+        <img src="./mcdonalds.png" style="width: 15rem;" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">McDonalds</h5>
         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
         <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-    </div>
+            </div>
+            break;
+        case 2:
+            <img src="./BurguerKing.png" style="width: 15rem;" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Burguer King</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+            break;
+        case 3:
+            <img src="./Itau.png" style="width: 15rem;" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Banco Itau</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+            break;
+        case 4:
+            <img src="./Santander.png" style="width: 15rem;" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Banco Santader</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+            break;
+        case 5:
+            <img src="./Kfc.jpg" style="width: 15rem;" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">KFC</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+            break;
+        case 6:
+            <img src="./MaterDei.png" style="width: 15rem;" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Mater Dei</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+            break;
+        case 7:
+            <img src="./BabyBeef.png" style="width: 15rem;" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Baby Beef</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+            break;
+        case 8:
+            <img src="./BancoBrasil.svg" style="width: 15rem;" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"> Banco do Brasil</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+            break;
+        case 9:
+            <img src="./Bh.png" style="width: 15rem;" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Supermecados Bh</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+            break;
+        case 10:
+            <img src="./DetranMg.png" style="width: 15rem;" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Detran MG</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+            break;
+        default:
+            break;
 
+    }
     <div class="mb-3">
         <label for="avaliacao" class="form-label">Deixe sua avaliação aqui:</label>
         <textarea class="form-control" id="avaliacao" rows="3"></textarea>
