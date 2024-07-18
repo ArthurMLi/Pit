@@ -3,16 +3,47 @@ public class Funcionario
 {
     
     // Atributos
-    protected int id;
-    protected string nome;
-    private string email;
-    protected int telefone;
+    protected int $id;
+    protected string $nome;
+    private string $email;
+    protected int $telefone;
 
-    //Props
-    public int Id { get { return id; }  set { id = value; } }
-    public string Nome { get { return nome; } set { nome = value; } }
-    public string Email { get { return email; } set { email = value; } }
-    public int Telefone { get { return telefone; } set { telefone = value; } }
+    //Getters
+    public function getId() 
+    {
+         return $this->id;
+    }
+    public function getNome() 
+    {
+         return $this->nome;
+    }
+    public function getEmail() 
+    {
+         return $this->email;
+    }
+    public function getTelefone() 
+    {
+         return $this->telefone;
+    }
+
+    //Setters
+    public function setId($Id) 
+    {
+        $this->id = $Id;
+    }
+    public function setNome($Nome) 
+    {
+        $this->nome = $Nome;
+    }
+    public function setEmail($Email) 
+    {
+        $this->email = $Email;
+    }
+    public function setTelefone($Telefone) 
+    {
+        $this->telefone = $Telefone;
+    }
+
 
     // Metodos
     public void AbrirFila(int Id)
