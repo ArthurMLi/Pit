@@ -22,7 +22,7 @@
             </div>
         </div>
     </div>
-    <button type="button" $onclick="EntrarFila" class="btn btn-primary" disabled="$desativadoEntrar">entrar na fila</button>
+    <button type="button" onclick="EntrarFila" class="btn btn-primary" disabled="$desativadoEntrar">entrar na fila</button>
     <button type="button" $onclick="SairFila" class="btn btn-primary" disabled="$desativadoSair">sair da fila</button>
 </body>
 </html>
