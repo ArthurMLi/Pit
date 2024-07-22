@@ -2,9 +2,14 @@
 public class Conta : Usuario
 {
     // Atributos
-    protected string $nome;
-    private string $email;
-    protected int $telefone;
+    
+    private $id;
+    protected $nome;
+    private $email;
+    protected $telefone;
+    public $teste;
+
+    
 
     // Getters
     public function getName() 
@@ -35,5 +40,7 @@ public class Conta : Usuario
     }
 
 
+
+    
 }
 ?>
