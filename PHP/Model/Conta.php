@@ -7,9 +7,10 @@ public class Conta : Usuario
     protected $nome;
     private $email;
     protected $telefone;
-    public $teste;
 
-    
+    public function __construct($db) {
+        $this->conn = $db;
+    }
 
     // Getters
     public function getName() 
