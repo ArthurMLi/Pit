@@ -5,6 +5,7 @@ interface ContaDAO {
     public function getUser($id); // This should return a User object
     public function updateUser($conta); // This should update a User object
     public function deleteUser($conta); // This should delete a User object
+    public function createConta($nome, $email, $telefone, $senha);
 }
 
 ?>

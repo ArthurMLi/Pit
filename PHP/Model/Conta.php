@@ -3,11 +3,11 @@ class Conta
 {
     // Atributos
     
-    public $id;
-    public $nome;
-    public $email;
-    public $telefone;
-    public $senha;
+    private $id;
+    private $nome;
+    private $email;
+    private $telefone;
+    private $senha;
 
 
     // Getters
