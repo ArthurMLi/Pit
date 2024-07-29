@@ -58,6 +58,15 @@ class ContaDAOImpl implements ContaDAO {
         }
     }
 
+    public function createConta() {
+        try {
+            $statement = $this->conn->prepare("INSERT INTO users (name, email, telefone, senha) VALUES (name=?, email=?, telefone=?, senha=?)");
+            $statement->execute([$conta->getName(), $conta->getEmail(), $conta->getId(), $conta->getTelefone(), $conta->getSenha()]);
+        } catch (PDOException $e) {
+            echo "Error: " . $e->getMessage();
+        }
+    }
+
     public function deleteConta($conta) {
         try {
             $statement = $this->conn->prepare("DELETE FROM users WHERE id=?");
