@@ -7,10 +7,8 @@ class Conta
     public $nome;
     public $email;
     public $telefone;
+    public $senha;
 
-    public function __construct() {
-        
-    }
 
     // Getters
     public function getName() 
@@ -25,6 +23,10 @@ class Conta
     {
         return $this->telefone;
     }
+    public function getSenha() 
+    {
+        return $this->senha;
+    }
      
     // Setters
     public function setName($nome) 
@@ -38,6 +40,10 @@ class Conta
     public function setTelefone($telefone) 
     {
         $this->telefone = $telefone;
+    }
+    public function setSenha($senha) 
+    {
+        $this->senha = $senha;
     }
 
 
