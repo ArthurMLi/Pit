@@ -1,15 +1,15 @@
 <?php
-public class Conta : Usuario
+class Conta 
 {
     // Atributos
     
-    private $id;
-    protected $nome;
-    private $email;
-    protected $telefone;
+    public $id;
+    public $nome;
+    public $email;
+    public $telefone;
 
-    public function __construct($db) {
-        $this->conn = $db;
+    public function __construct() {
+        
     }
 
     // Getters

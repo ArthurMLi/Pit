@@ -51,15 +51,7 @@ html {
     }
 
     .btnsenha{
-        width: 20%;
-        padding: 10px;
-        background-color: #66b1e3;
-        color: #ffffff;
-        border: none;
-        border-radius: 20px;
-        font-size: 1rem;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
+        width: 10%;
     }
 
 .btn-entrar {

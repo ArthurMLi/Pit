@@ -7,7 +7,7 @@ create table users (
     email VARCHAR(100) NOT NULL,
     telefone INT NOT NULL,
     senha VARCHAR(40) NOT NULL,
-    numero_fila VARCHAR(10) NOT NULL
+    numero_fila VARCHAR(10) NULL
 );
 
 create table estabelecimento(

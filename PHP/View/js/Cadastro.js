@@ -13,19 +13,13 @@ const handlePhone = (event) => {
   }
 
 // Para mostrar e esconder senha
-// "use strict";
-// const senha = document.getElementById("senha");
-// const btnsenha = document.getElementsById("btnsenha");
-// btnsenha.addEventListener('click', togglePass);
 
 function togglePass() {
     const senha = document.getElementById("senha");
-    // const btnsenha = document.getElementsById("btnsenha");
   if (senha.type === "password") {
     senha.type = "text";
     document.getElementsById("btnsenha").innerHTML = "teste";
   } else {
     senha.type = "password";
-    // btnsenha.textContent = "😣";
   }
 }

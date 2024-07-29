@@ -18,7 +18,7 @@
 	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 	    <div class="navbar-nav">
 	      <a class="nav-item nav-link active" href="../">Home <span class="sr-only">(Página atual)</span></a>
-	      <a class="nav-item nav-link" href="View/Login">Login</a>
+	      <a class="nav-item nav-link" href="Login">Login</a>
 	      <a class="nav-item nav-link" href="#">Estabelecimentos</a>
 	      <a class="nav-item nav-link disabled" href="#">Desativado</a>
 	    </div>
@@ -27,15 +27,15 @@
 
 	<div class="signup-container">
 	    <div class="signup-box">
-	        <h2>Login</h2>
-	        <form action="Controller/ContaController?action=valida_user" method="post">
+	        <h2>Cadastro</h2>
+	        <form action="../Controller/ContaController?action=create_conta" method="post">
 	            <div class="form-group">
                 
-                <input placeholder="Nome" type="text" id="username" name="username" required>
+                <input placeholder="Nome" type="text" id="nome" name="nome" required>
 	            </div>
 	            <div class="form-group">
 
-                <input placeholder="Email" type="email" id="username" name="username" required>
+                <input placeholder="Email" type="email" id="email" name="email" required>
 	            </div>
 	            <div class="form-group">
                 
@@ -48,9 +48,6 @@
                 </div>
 	            <a href="/"><button class="btn-entrar" type="submit">Entrar</button></a>
 	        </form>
-	        <div class="bottom-text">
-	            <p>Não possui conta? <a href="/Cadastro">Faça seu cadastro aqui</a></p>
-	        </div>
 	    </div>
 	</div>
 
