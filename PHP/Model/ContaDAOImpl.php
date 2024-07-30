@@ -12,18 +12,26 @@ class ContaDAOImpl{
     }
 
     
-    public function getConta($id) {
+    public function validaConta($email, $senha) {
         $conta = new Conta();
         try {
-            $statement = $this->conn->prepare("SELECT * FROM users WHERE id=?");
-            $statement->execute([$id]);
-            $row = $statement->fetch(PDO::FETCH_ASSOC);
-            if ($row) {
+            $statement = $this->conn->prepare("SELECT * FROM users WHERE email = :email AND senha = :senha");
+            $statement->bindParam(':email', $email);
+            $statement->bindParam(':senha', $senha);
+            $statement->execute();
+
+            
+            if ($statement->rowCount() > 0) {
+                // passa as informações para o controller para ir pra uma sessão
+                $row = $statement->fetch(PDO::FETCH_ASSOC);
                 $conta->setId($row['id']);
                 $conta->setName($row['name']);
                 $conta->setEmail($row['email']);
                 $conta->setTelefone($row['telefone']);
                 $conta->setSenha($row['senha']);
+                return $conta;
+            } else {
+                return false;
             }
         } catch (PDOException $e) {
             echo "Error: " . $e->getMessage();
@@ -48,6 +56,35 @@ class ContaDAOImpl{
         } catch (PDOException $e) {
             echo "Error: " . $e->getMessage();
         }
+    }
+
+    public function updateConta($id, $nome, $email, $telefone) {
+        $conta = new Conta();
+        try {
+            $statement = $this->conn->prepare("UPDATE users SET name = :nome, email = :email, telefone = :telefone WHERE id = :id");
+            $statement->bindParam(':nome', $nome);
+            $statement->bindParam(':email', $email);
+            $statement->bindParam(':telefone', $telefone);
+
+            $statement->execute();
+
+            
+            if ($statement->rowCount() > 0) {
+                // passa as informações para o controller para ir pra uma sessão
+                $row = $statement->fetch(PDO::FETCH_ASSOC);
+                $conta->setId($row['id']);
+                $conta->setName($row['name']);
+                $conta->setEmail($row['email']);
+                $conta->setTelefone($row['telefone']);
+                $conta->setSenha($row['senha']);
+                return $conta;
+            } else {
+                return false;
+            }
+        } catch (PDOException $e) {
+            echo "Error: " . $e->getMessage();
+        }
+        return $conta;
     }
 }
 

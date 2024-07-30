@@ -21,7 +21,7 @@ namespace Home;
       <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(Página atual)</span></a>
       <a class="nav-item nav-link" href="View/Login">Login</a>
       <a class="nav-item nav-link" href="View/Estabelecimentos">Estabelecimentos</a>
-      <a class="nav-item nav-link disabled" href="#">Desativado</a>
+      <a class="nav-item nav-link" href="View/Perfil">Perfil</a>
     </div>
   </div>
 </nav>

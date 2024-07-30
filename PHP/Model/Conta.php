@@ -11,6 +11,10 @@ class Conta
 
 
     // Getters
+    public function getId() 
+    {
+        return $this->id;
+    }
     public function getName() 
     {
         return $this->nome;
@@ -29,6 +33,10 @@ class Conta
     }
      
     // Setters
+    public function setId($id) 
+    {
+        $this->id = $id;
+    }
     public function setName($nome) 
     {
         $this->nome = $nome;
