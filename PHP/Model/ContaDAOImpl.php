@@ -4,7 +4,7 @@ require_once '../Config/Database.php';
 require_once 'ContaDAO.php';
 require_once 'Conta.php';
 
-class ContaDAOImpl{
+class ContaDAOImpl Implements ContaDAO{
     private $conn;
 
     public function __construct() {
@@ -65,6 +65,7 @@ class ContaDAOImpl{
             $statement->bindParam(':nome', $nome);
             $statement->bindParam(':email', $email);
             $statement->bindParam(':telefone', $telefone);
+            $statement->bindParam(':id', $id);
 
             $statement->execute();
 
@@ -79,7 +80,7 @@ class ContaDAOImpl{
                 $conta->setSenha($row['senha']);
                 return $conta;
             } else {
-                return false;
+                return null;
             }
         } catch (PDOException $e) {
             echo "Error: " . $e->getMessage();
