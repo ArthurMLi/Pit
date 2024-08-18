@@ -1,5 +1,5 @@
 <?php
-public class Funcionario
+class Funcionario
 {
     
     // Atributos
@@ -46,18 +46,18 @@ public class Funcionario
 
 
     // Metodos
-    public void AbrirFila(int Id)
+    public function AbrirFila($Id)
     {
 
     }
-    public void FecharFila(int Id)
+    public function FecharFila($Id)
     {
 
     }
-    public string ChamarProximo(int Id, string NumeroFila)
+    public function ChamarProximo($Id, $NumeroFila)
     {
-        string ProximoNumero = NumeroFila;
-        return ProximoNumero;
+        $ProximoNumero = $NumeroFila;
+        return $ProximoNumero;
     }
 
 

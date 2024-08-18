@@ -35,30 +35,29 @@
         <img class="image" src="" alt="" />
         <h3 class="username text-center"> <?php echo $_SESSION['user_name'] ?> </h3>
         <a href="#" class="btn btn-primary btn-block"><b>Editar foto</b></a>
+        
       </div>
       <div class="right tab-content">
         <form class="form-horizontal" action="../Controller/ContaController?action=update_conta" method="post">
           <div class="form-group">
             <label for="nome" class="col-sm-2 control-label">Nome</label>
             <div class="col-sm-10">
-              <input type="text" class="form-control" id="nome" name="nome" placeholder="<?php echo $_SESSION['user_name']  ?>">
+              <input type="text" class="form-control" id="nome" name="nome" value="<?php echo $_SESSION['user_name']  ?>">
             </div>
             <label for="email" class="col-sm-2 control-label">Email</label>
             <div class="col-sm-10">
-              <input type="email" class="form-control" id="email" name="email" placeholder="<?php echo $_SESSION['user_email'] ?>">
+              <input type="email" class="form-control" id="email" name="email" value="<?php echo $_SESSION['user_email'] ?>">
             </div>
             <label for="telefone" class="col-sm-2 control-label"  >Telefone</label>
             <div class="col-sm-10">
-              <input type="tel" class="form-control" id="telefone" name="telefone" placeholder="<?php echo $_SESSION['user_telefone'] ?>">
+              <input type="tel" class="form-control" id="telefone" name="telefone" value="<?php echo $_SESSION['user_telefone'] ?>">
             </div>
-
+            <div class="col-sm-10">
+            <button type="submit" class="btn btn-danger">Salvar alterações</button>
+            </div>
+            
           </div>
             </div>
-          <div class="form-group">
-            <div class="col-sm-offset-2 col-sm-10">
-              <button type="submit" class="btn btn-danger">Salvar alterações</button>
-            </div>
-          </div>
         </form>
       </div>
     </div>

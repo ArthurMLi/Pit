@@ -73,11 +73,10 @@ class ContaDAOImpl Implements ContaDAO{
             if ($statement->rowCount() > 0) {
                 // passa as informações para o controller para ir pra uma sessão
                 $row = $statement->fetch(PDO::FETCH_ASSOC);
-                $conta->setId($row['id']);
-                $conta->setName($row['name']);
-                $conta->setEmail($row['email']);
-                $conta->setTelefone($row['telefone']);
-                $conta->setSenha($row['senha']);
+                $conta->setId($id);
+                $conta->setName($nome);
+                $conta->setEmail($email);
+                $conta->setTelefone($telefone);
                 return $conta;
             } else {
                 return null;

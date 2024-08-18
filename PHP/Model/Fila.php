@@ -1,5 +1,5 @@
 <?php
-public class Fila
+class Fila
 {
     // Atributos
     public int $NumeroPessoas;
@@ -53,20 +53,20 @@ public class Fila
     }
 
     // Metodos
-    public void EntrarFila(int IdFila, string NumeroFila)
+    public function EntrarFila($IdFila, $NumeroFila)
     {
-        this.Usuario.numerofila = NumeroFila;
+        $this->Usuario->setNumeroFila($NumeroFila);
     }
-    public string SairFila(int IdFila)
+    public function SairFila($IdFila)
     {
-        return this.Usuario.numerofila;
+        return $this->Usuario->getNumeroFila();
     }
-    public int AvaliarFila(int IdFila)
+    public function AvaliarFila($IdFila)
     {
-        int NotaFila = 5;
-        return NotaFila;
+        $NotaFila = 5;
+        return $NotaFila;
     }
-    private int CalcularMedia()
+    private function CalcularMedia()
     {
         return 0;
     }

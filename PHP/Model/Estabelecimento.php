@@ -1,5 +1,5 @@
 <?php
-public class Estabelecimento
+class Estabelecimento
 {
     // Atributos
     public int $id;

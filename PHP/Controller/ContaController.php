@@ -29,7 +29,11 @@ include_once '../Model/ContaDAOImpl.php';
                 $senha = $_POST['senha'];
                 
                 $conta = $contaDao->validaConta($email, $senha);
-                if(isset($conta)){
+                if($conta == null) {
+                    echo 'Nome de usuário ou senha incorretos';
+                    echo '<br><a href="../View/Login.php">Voltar a pagina de login</a>';
+                } else {
+                    
                     session_start();
                     $_SESSION['user_id'] = $conta->getId();
                     $_SESSION['user_name'] = $conta->getName();
@@ -37,8 +41,6 @@ include_once '../Model/ContaDAOImpl.php';
                     $_SESSION['user_telefone'] = $conta->getTelefone();
                     header('Location: ../View/Estabelecimentos');
                     exit();
-                } else {
-                    echo 'Nome de usuário ou senha incorretos';
                 }
                 
             }

@@ -1,5 +1,5 @@
 <?php
-public class Gerente : Funcionario
+class Gerente extends Funcionario
 {
     // Atibutos
     private int $id;

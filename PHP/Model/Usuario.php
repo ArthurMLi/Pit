@@ -1,5 +1,5 @@
 <?php
-public class Usuario
+class Usuario
 {
     // Atributos
     public string $numeroFila;
