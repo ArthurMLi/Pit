@@ -25,6 +25,7 @@
 	      <a class="nav-item nav-link" href="Login">Login</a>
 	      <a class="nav-item nav-link" href="Estabelecimentos">Estabelecimentos</a>
 	      <a class="nav-item nav-link disabled" href="#">Desativado</a>
+          <a class="nav-item nav-link" href="Logout">Sair</a>
 	    </div>
 	  </div>
 	</nav>

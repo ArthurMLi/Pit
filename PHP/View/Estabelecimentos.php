@@ -25,16 +25,17 @@
 	      <a class="nav-item nav-link" href="Login">Login</a>
 	      <a class="nav-item nav-link" href="Estabelecimentos">Estabelecimentos</a>
 	      <a class="nav-item nav-link" href="Perfil">Perfil</a>
-	    </div>
+	    
         <?php
         if (!isset($_SESSION['user_id'])) {
-            echo 'Deslogado';
+            echo '<a class="nav-item nav-link"><b>Deslogado</b></a>';
             exit;
         }
         else{
-            echo $_SESSION['user_name'];
+            echo '<a class="nav-item nav-link" href="Logout">Sair</a><a class="nav-item nav-link" ><b>'.$_SESSION['user_name'].'</b></a>';
         }
         ?>
+        </div>
 	  </div>
 	</nav>
 

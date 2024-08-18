@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+<?php
+    session_start();    
+?>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Codigo Fila</title>
@@ -19,8 +21,17 @@
 	    <div class="navbar-nav">
 	      <a class="nav-item nav-link active" href="../">Home <span class="sr-only">(Página atual)</span></a>
 	      <a class="nav-item nav-link" href="View/Login">Login</a>
-	      <a class="nav-item nav-link" href="View/Estabelecimentos">Estabelecimentos</a>
+	      <a class="nav-item nav-link" href="Estabelecimentos">Estabelecimentos</a>
 	      <a class="nav-item nav-link" href="Perfil">Perfil</a>
+		  <?php
+        	if (!isset($_SESSION['user_id'])) {
+            echo '<a class="nav-item nav-link"><b>Deslogado</b></a>';
+            
+        	}
+        	else{
+            echo '<a class="nav-item nav-link" href="Logout">Sair</a><a class="nav-item nav-link" ><b>'.$_SESSION['user_name'].'</b></a>';
+        	}
+        	?>
 	    </div>
 	  </div>
 	</nav>

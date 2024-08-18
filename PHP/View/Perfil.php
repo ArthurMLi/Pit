@@ -4,7 +4,7 @@
 <?php
     session_start();
     if (!isset($_SESSION['user_id'])) {
-		echo 'Deslogado';
+		echo 'Deslogado <br> <a href="../index.php">Voltar para pagina inicial</a>';
 		exit;
 	}
     ?>
@@ -13,6 +13,7 @@
 <title>Codigo Fila</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <link rel="stylesheet" href="css/Perfil.css">
+<script src="js/Cadastro.js" type="text/javascript" defer></script>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -26,6 +27,7 @@
 	      <a class="nav-item nav-link" href="Login">Login</a>
 	      <a class="nav-item nav-link" href="Estabelecimentos">Estabelecimentos</a>
 	      <a class="nav-item nav-link" href="Perfil">Perfil</a>
+        <a class="nav-item nav-link" href="Logout">Sair</a>
 	    </div>
 	  </div>
 	</nav>
@@ -50,7 +52,7 @@
             </div>
             <label for="telefone" class="col-sm-2 control-label"  >Telefone</label>
             <div class="col-sm-10">
-              <input type="tel" class="form-control" id="telefone" name="telefone" value="<?php echo $_SESSION['user_telefone'] ?>">
+            <input value=<?php echo $_SESSION['user_telefone'] ?> type="tel" maxlength="15" onkeyup="handlePhone(event)" class="form-control" id="telefone" name="telefone"  pattern="(\([0-9]{2}\))\s([9]{1})?([0-9]{4})-([0-9]{4})" title="Número de telefone precisa ser no formato (00) 0 0000-0000" required="required" />
             </div>
             <div class="col-sm-10">
             <button type="submit" class="btn btn-danger">Salvar alterações</button>
