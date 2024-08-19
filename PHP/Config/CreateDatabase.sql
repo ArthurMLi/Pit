@@ -14,7 +14,7 @@ create table estabelecimento(
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(60) NOT NULL,
     cnpj INT NOT NULL,
-    descricao VARCHAR NOT NULL,
+    descricao VARCHAR(100) NOT NULL,
     logo VARCHAR(100) NOT NULL
 );
 
