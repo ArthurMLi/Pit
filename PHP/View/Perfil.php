@@ -33,11 +33,12 @@
 	</nav>
   <main>
     <div class="container">
-      <div class="left box-primary">
+    <form class="form-horizontal" action="../Controller/ContaController?action=update_img" method="post">
+        <div class="left box-primary">
         <img class="image" src="" alt="" />
         <h3 class="username text-center"> <?php echo $_SESSION['user_name'] ?> </h3>
-        <a href="#" class="btn btn-primary btn-block"><b>Editar foto</b></a>
-        
+        <button type="submit" class="btn btn-primary btn-block"><b>Editar foto</b></>
+        </form>
       </div>
       <div class="right tab-content">
         <form class="form-horizontal" action="../Controller/ContaController?action=update_conta" method="post">
