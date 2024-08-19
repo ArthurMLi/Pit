@@ -20,7 +20,7 @@
 	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 	    <div class="navbar-nav">
 	      <a class="nav-item nav-link active" href="../">Home <span class="sr-only">(Página atual)</span></a>
-	      <a class="nav-item nav-link" href="View/Login">Login</a>
+	      <a class="nav-item nav-link" href="Login">Login</a>
 	      <a class="nav-item nav-link" href="Estabelecimentos">Estabelecimentos</a>
 	      <a class="nav-item nav-link" href="Perfil">Perfil</a>
 		  <?php

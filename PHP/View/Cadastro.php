@@ -40,7 +40,7 @@
 	            </div>
 	            <div class="form-group">
                 
-                <input placeholder="Telefone" type="tel" maxlength="15" onkeyup="handlePhone(event)" class="form-control" id="telefone" name="telefone"  pattern="(\([0-9]{2}\))\s([9]{1})?([0-9]{4})-([0-9]{4})" title="Número de telefone precisa ser no formato (00) 0 0000-0000" required="required" />
+                <input type="tel" maxlength="15" onkeyup="handlePhone(event)" class="form-control" id="telefone" name="telefone"  pattern="(\([0-9]{2}\))\s([9]{1})?([0-9]{4})-([0-9]{4})" title="Número de telefone precisa ser no formato (00) 0 0000-0000" required="required" />
                 </div>
                 <div class="form-group">
 

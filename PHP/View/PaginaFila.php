@@ -1,6 +1,6 @@
 <?php
     
-    public int Teste { get; set; }
+    $Teste = 1
     
 ?>
 <!DOCTYPE html>
@@ -31,7 +31,7 @@
 	</nav>
 
 <div class="card mb-3" >
-    <?php switch(Teste) {
+    <?php switch($Teste) {
         case 1: ?> 
         <img src="../Img/mcdonalds.png" style="width: 15rem;" class="card-img-top" alt="...">
         <div class="card-body">
