@@ -53,7 +53,7 @@
             </div>
             <label for="telefone" class="col-sm-2 control-label"  >Telefone</label>
             <div class="col-sm-10">
-            <input value=<?php echo $_SESSION['user_telefone'] ?> type="tel" maxlength="15" onkeyup="handlePhone(event)" class="form-control" id="telefone" name="telefone"  pattern="(\([0-9]{2}\))\s([9]{1})?([0-9]{4})-([0-9]{4})" title="Número de telefone precisa ser no formato (00) 0 0000-0000" required="required" />
+            <input value=<?php echo $_SESSION['user_telefone'] ?> type="tel" maxlength="15"  class="form-control" id="telefone" name="telefone"   />
             </div>
             <div class="col-sm-10">
             <button type="submit" class="btn btn-danger">Salvar alterações</button>

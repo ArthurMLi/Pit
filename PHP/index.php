@@ -3,7 +3,7 @@ namespace Home;
 session_start();
     if (!isset($_SESSION['user_id'])) {
       $logado = false;
-		exit; }
+		 }
 ?>
 <!DOCTYPE html>
 <html lang="en">
