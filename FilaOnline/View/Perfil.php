@@ -5,7 +5,7 @@
     session_start();
     if (!isset($_SESSION['user_id'])) {
 		echo 'Deslogado <br> <a href="../index.php">Voltar para pagina inicial</a>';
-		exit;
+    exit;
 	}
     ?>
 <meta charset="utf-8">
@@ -53,7 +53,7 @@
             </div>
             <label for="telefone" class="col-sm-2 control-label"  >Telefone</label>
             <div class="col-sm-10">
-            <input value=<?php echo $_SESSION['user_telefone'] ?> type="tel" maxlength="15"  class="form-control" id="telefone" name="telefone"   />
+            <input <?php if(!isset($_SESSION['user_id'])){echo "value=" + $_SESSION['user_telefone'];};?> type="tel" maxlength="15"  class="form-control" id="telefone" name="telefone"   />
             </div>
             <div class="col-sm-10">
             <button type="submit" class="btn btn-danger">Salvar alterações</button>

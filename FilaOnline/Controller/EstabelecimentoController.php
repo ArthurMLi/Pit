@@ -1,7 +1,8 @@
 <?php
 
-include_once '../Model/Estabelecimento.php';
-include_once '../DAO/EstabelecimentoDAOImpl.php';
+require_once(__DIR__ . '/../Model/Estabelecimento.php');
+include_once (__DIR__ . '/../Model/Estabelecimento.php');
+include_once (__DIR__ . '/../DAO/EstabelecimentoDAOImpl.php');
 
     $action = isset($_GET['action']) ? $_GET['action'] : '';
     $id = isset($_GET['id']) ? $_GET['id']: null;
@@ -43,6 +44,7 @@ include_once '../DAO/EstabelecimentoDAOImpl.php';
                     $_SESSION['user_cnpj'] = $estabelecimento->getCnpj();
                     $_SESSION['user_endereco'] = $estabelecimento->getEndereco();
                     $_SESSION['user_descricao'] = $estabelecimento->getDescricao();
+                    $_SESSION['estabelecimento'] = true;
                     header('Location: ../View/Estabelecimentos');
                     exit();
                 }

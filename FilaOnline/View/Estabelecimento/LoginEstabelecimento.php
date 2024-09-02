@@ -45,7 +45,7 @@
 		</div>
 			<div><br></div>
 	        <h2>Login</h2>
-	        <form action="../Controller/ContaController?action=valida_conta" method="post">
+	        <form action="../../Controller/EstabelecimentoController?action=valida_conta" method="post">
 	            <div class="form-group">
                 
                 <input placeholder="Email" type="email" id="email" name="email" required>

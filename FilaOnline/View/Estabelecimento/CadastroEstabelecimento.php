@@ -29,7 +29,7 @@
 	<div class="signup-container">
 	    <div class="signup-box">
 	        <h2>Cadastro</h2>
-	        <form action="../Controller/EstabelecimentoController?action=create_conta" method="post">
+	        <form action="../../Controller/EstabelecimentoController?action=create_conta" method="post">
 	            <div class="form-group">
                 <label for="nome">Nome:</label>
                 <input  type="text" id="nome" name="nome" required>

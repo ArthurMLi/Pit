@@ -18,7 +18,7 @@ create table estabelecimento(
     endereco VARCHAR(100) NOT NULL,
     descricao VARCHAR(100) NOT NULL,
     logo VARCHAR(100) NOT NULL, 
-    senha VARCHAR(40) NOT NULL,
+    senha VARCHAR(40) NOT NULL
 );
 
 create table funcionario(

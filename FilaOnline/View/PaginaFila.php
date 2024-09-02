@@ -1,6 +1,5 @@
 <?php
     
-    $Teste = 1
     
 ?>
 <!DOCTYPE html>

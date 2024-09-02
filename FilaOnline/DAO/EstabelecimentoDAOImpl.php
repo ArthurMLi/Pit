@@ -2,7 +2,7 @@
 
 require_once '../Config/Database.php';
 require_once 'EstabelecimentoDAO.php';
-require_once '../Model/Estabeleciemento.php';
+require_once '../Model/Estabelecimento.php';
 
 class EstabelecimentoDAOImpl Implements EstabelecimentoDAO{
     private $conn;
