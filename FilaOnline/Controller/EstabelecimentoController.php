@@ -82,6 +82,6 @@ include_once (__DIR__ . '/../DAO/EstabelecimentoDAOImpl.php');
         break;
     }
 
-?>
+
 
 

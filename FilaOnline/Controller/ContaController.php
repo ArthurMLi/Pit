@@ -74,6 +74,3 @@ include_once '../DAO/ContaDAOImpl.php';
         break;
     }
 
-?>
-
-
