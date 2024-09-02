@@ -8,21 +8,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Codigo Fila</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<link rel="stylesheet" href="css/Login.css">
+<link rel="stylesheet" href="../css/Login.css">
+<script src="../js/Cadastro.js" type="text/javascript" defer></script>
 </head>
 
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-	  <a class="navbar-brand" href="../">FilaOnline</a>
+	  <a class="navbar-brand" href="../../index">FilaOnline</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
 	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 	    <div class="navbar-nav">
-	      <a class="nav-item nav-link active" href="../">Home <span class="sr-only">(Página atual)</span></a>
-	      <a class="nav-item nav-link" href="Login">Login</a>
-	      <a class="nav-item nav-link" href="Estabelecimentos">Estabelecimentos</a>
-	      <a class="nav-item nav-link" href="Perfil">Perfil</a>
+	      <a class="nav-item nav-link active" href="../../index">Home <span class="sr-only">(Página atual)</span></a>
+	      <a class="nav-item nav-link" href="../Login">Login</a>
+	      <a class="nav-item nav-link" href="../Estabelecimentos">Estabelecimentos</a>
+	      <a class="nav-item nav-link" href="../Perfil">Perfil</a>
 		  <?php
         	if (!isset($_SESSION['user_id'])) {
             echo '<a class="nav-item nav-link"><b>Deslogado</b></a>';
@@ -39,7 +40,7 @@
 	<div class="signup-container">
 		<div class="signup-box">
 		<div class="btn-group" role="group" aria-label="Exemplo básico">
-			<a type="button" href="Login" class="btn btn-outline-info">Usuario</a>
+			<a type="button" href="../Login" class="btn btn-outline-info">Usuario</a>
 			<a class="btn btn-primary" href="LoginEstabelecimento" role="button">Estabelecimento</a>
 		</div>
 			<div><br></div>

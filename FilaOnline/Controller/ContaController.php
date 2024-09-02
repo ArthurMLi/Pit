@@ -1,7 +1,7 @@
 <?php
 
 include_once '../Model/Conta.php';
-include_once '../Model/ContaDAOImpl.php';
+include_once '../DAO/ContaDAOImpl.php';
 
     $action = isset($_GET['action']) ? $_GET['action'] : '';
     $id = isset($_GET['id']) ? $_GET['id']: null;

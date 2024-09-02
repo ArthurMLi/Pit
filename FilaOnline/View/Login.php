@@ -9,8 +9,7 @@
 <title>Codigo Fila</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <link rel="stylesheet" href="css/Login.css">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="js/Cadastro.js" type="text/javascript" defer></script>
 </head>
 
 <body>
@@ -42,7 +41,7 @@
 		<div class="signup-box">
 		<div class="btn-group" role="group" aria-label="Exemplo básico">
 			<a class="btn btn-primary" href="#" role="button">Usuario</a>
-			<a type="button" href="LoginEstabelecimento" class="btn btn-outline-info">Estabelecimento</a>
+			<a type="button" href="Estabelecimento/LoginEstabelecimento" class="btn btn-outline-info">Estabelecimento</a>
 		</div>
 			<div><br></div>
 	        <h2>Login</h2>

@@ -13,9 +13,12 @@ create table users (
 create table estabelecimento(
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(60) NOT NULL,
+    email VARCHAR(100) NOT NULL,
     cnpj INT NOT NULL,
+    endereco VARCHAR(100) NOT NULL,
     descricao VARCHAR(100) NOT NULL,
-    logo VARCHAR(100) NOT NULL
+    logo VARCHAR(100) NOT NULL, 
+    senha VARCHAR(40) NOT NULL,
 );
 
 create table funcionario(

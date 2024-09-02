@@ -2,11 +2,14 @@
 class Estabelecimento
 {
     // Atributos
-    public int $id;
-    protected string $nome;
-    private int $cnpj;
-    protected string $descricao;
-    private string $logo;
+    public $id;
+    private $nome;
+    private $email;
+    private $cnpj;
+    private $endereco;
+    private $descricao;
+    private $logo;
+    private $senha;
 
      // Getters
      public function getId() 
@@ -17,9 +20,17 @@ class Estabelecimento
      {
          return $this->nome;
      }
+     public function getEmail() 
+     {
+         return $this->email;
+     }
      public function getCnpj() 
      {
          return $this->cnpj;
+     }
+     public function getEndereco() 
+     {
+         return $this->endereco;
      }
      public function getDescricao() 
      {
@@ -29,9 +40,13 @@ class Estabelecimento
      {
          return $this->logo;
      }
+     public function getSenha() 
+     {
+         return $this->senha;
+     }
       
      // Setters
-     public function setName($id) 
+     public function setId($id) 
      {
          $this->id = $id;
      }
@@ -39,9 +54,17 @@ class Estabelecimento
      {
          $this->nome = $nome;
      }
+     public function setEmail($email) 
+     {
+         $this->email = $email;
+     }
      public function setCnpj($cnpj) 
      {
          $this->cnpj = $cnpj;
+     }
+     public function setEndereco($endereco) 
+     {
+         $this->endereco = $endereco;
      }
      public function setDescricao($descricao) 
      {
@@ -50,6 +73,10 @@ class Estabelecimento
      public function setLogo($logo) 
      {
          $this->logo = $logo;
+     }
+     public function setSenha($senha) 
+     {
+         $this->senha = $senha;
      }
 }
 ?>

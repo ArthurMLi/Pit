@@ -2,7 +2,7 @@
 
 require_once '../Config/Database.php';
 require_once 'ContaDAO.php';
-require_once 'Conta.php';
+require_once '../Model/Conta.php';
 
 class ContaDAOImpl Implements ContaDAO{
     private $conn;
