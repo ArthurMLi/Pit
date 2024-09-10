@@ -71,7 +71,11 @@ class FilaDAOImpl implements FilaDAO
 
         $statement = $this->conn->query($sql);
 
-        return $statement->fetchAll(PDO::FETCH_ASSOC);
+        if ($statement->execute()) {
+            return true;
+        } else {
+            return false;
+        }
     }
     function deleteFila($idFila)
     {
@@ -81,6 +85,10 @@ class FilaDAOImpl implements FilaDAO
         $statement = $this->conn->prepare($sql);
         $statement->bindParam(':idFila', $idFila);
 
-        return $statement->execute();
+        if ($statement->execute()) {
+            return true;
+        } else {
+            return false;
+        }
     }
 }
