@@ -4,50 +4,54 @@ class Fila
     // Atributos
     public int $NumeroPessoas;
     public string $EstabelecimentoFila;
-    public DateTime $TempoMedio;
+    public $TempoMedio;
     public string $PessoasFila;
-    private Usuario $Usuario = new Usuario();
+
+    private $Usuario = [];
+
+
+
 
     // Getters 
-    public function getNumeroPessoas() 
+    public function getNumeroPessoas()
     {
-         return $this->NumeroPessoas;
+        return $this->NumeroPessoas;
     }
-    public function getEstabelecimentoFila() 
+    public function getEstabelecimentoFila()
     {
-         return $this->EstabelecimentoFila;
+        return $this->EstabelecimentoFila;
     }
-    public function getTempoMedio() 
+    public function getTempoMedio()
     {
-         return $this->TempoMedio;
+        return $this->TempoMedio;
     }
-    public function getPessoasFila() 
+    public function getPessoasFila()
     {
-         return $this->PessoasFila;
+        return $this->PessoasFila;
     }
-    public function getUsuario() 
+    public function getUsuario()
     {
-         return $this->Usuario;
+        return $this->Usuario;
     }
-    
+
     // Setters
-    public function setNumeroPessoas($NumeroPessoas) 
+    public function setNumeroPessoas($NumeroPessoas)
     {
         $this->NumeroPessoas = $NumeroPessoas;
     }
-    public function setEstabelecimentoFila($EstabelecimentoFila) 
+    public function setEstabelecimentoFila($EstabelecimentoFila)
     {
         $this->EstabelecimentoFila = $EstabelecimentoFila;
     }
-    public function setTempoMedio($TempoMedio) 
+    public function setTempoMedio($TempoMedio)
     {
         $this->TempoMedio = $TempoMedio;
     }
-    public function setPessoasFila($PessoasFila) 
+    public function setPessoasFila($PessoasFila)
     {
         $this->PessoasFila = $PessoasFila;
     }
-    public function setUsuario($Usuario) 
+    public function setUsuario($Usuario)
     {
         $this->Usuario = $Usuario;
     }

@@ -2,6 +2,7 @@
 class Usuario
 {
     // Atributos
+    public string $idFila;
     public string $numeroFila;
 
     //Getters
@@ -9,11 +10,20 @@ class Usuario
     {
          return $this->numeroFila;
     }
+    public function getIdFila() 
+    {
+         return $this->idFila;
+    }
+
 
     //Setters
     public function setNumeroFila($NumeroFila) 
     {
         $this->numeroFila = $NumeroFila;
+    }
+    public function setIdFila($IdFila) 
+    {
+        $this->idFila = $IdFila;
     }
 
 }

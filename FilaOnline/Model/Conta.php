@@ -1,4 +1,5 @@
 <?php
+include '/Fila.php';
 class Conta 
 {
     // Atributos
@@ -9,7 +10,12 @@ class Conta
     private $telefone;
     private $senha;
 
-
+    private $endereco;
+    
+    
+    
+    
+    
     // Getters
     public function getId() 
     {

@@ -15,7 +15,7 @@ class ContaDAOImpl Implements ContaDAO{
     public function validaConta($email, $senha) {
         $conta = new Conta();
         try {
-            $statement = $this->conn->prepare("SELECT * FROM users WHERE email = :email AND senha = :senha");
+            $statement = $this->conn->prepare("SELECT * FROM conta WHERE email = :email AND senha = :senha");
             $statement->bindParam(':email', $email);
             $statement->bindParam(':senha', $senha);
             $statement->execute();
@@ -43,7 +43,7 @@ class ContaDAOImpl Implements ContaDAO{
 
     public function createConta($nome, $email, $telefone, $senha) {
         try {
-            $statement = $this->conn->prepare("INSERT INTO users (name, email, telefone,senha) VALUES (:name, :email, :telefone, :senha)");
+            $statement = $this->conn->prepare("INSERT INTO conta (name, email, telefone,senha) VALUES (:name, :email, :telefone, :senha)");
             $statement->bindParam(':name', $nome);
             $statement->bindParam(':email', $email);
             $statement->bindParam(':telefone', $telefone);
@@ -61,7 +61,7 @@ class ContaDAOImpl Implements ContaDAO{
     public function updateConta($id, $nome, $email, $telefone) {
         $conta = new Conta();
         try {
-            $statement = $this->conn->prepare("UPDATE users SET name = :nome, email = :email, telefone = :telefone WHERE id = :id");
+            $statement = $this->conn->prepare("UPDATE conta SET name = :nome, email = :email, telefone = :telefone WHERE id = :id");
             $statement->bindParam(':nome', $nome);
             $statement->bindParam(':email', $email);
             $statement->bindParam(':telefone', $telefone);
