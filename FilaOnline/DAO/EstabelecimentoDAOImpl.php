@@ -100,12 +100,7 @@ class EstabelecimentoDAOImpl Implements EstabelecimentoDAO{
         }
         return $estabelecimento;
     }
-    public function createFila() {
-        $resultado = '';
-        
 
-        return $resultado;
-    }
 
 }
 

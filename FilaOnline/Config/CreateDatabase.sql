@@ -8,6 +8,7 @@ create table conta (
     email VARCHAR(100) NOT NULL,
     telefone varchar(15) NOT NULL,
     senha VARCHAR(40) NOT NULL,
+    foto text not null
 );
 
 create table users(
@@ -38,7 +39,9 @@ create table funcionario(
 create table fila(
     id INT AUTO_INCREMENT not null PRIMARY KEY,
     idEstabelecimento int not null foreign key REFERENCES estabelcimento(id),
+    nome text not null,
     tempoMedio FLOAT NOT NULL,
     qntPessoasFila INT NOT NULL,
+    endereco text NOT NULL,
     img text
 );

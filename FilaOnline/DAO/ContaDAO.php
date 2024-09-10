@@ -6,4 +6,3 @@ interface ContaDAO {
     public function createConta($nome, $email, $telefone, $senha);
 }
 
-?>

@@ -9,9 +9,8 @@ class Conta
     private $email;
     private $telefone;
     private $senha;
+    private $foto;
 
-    private $endereco;
-    
     
     
     
@@ -21,6 +20,7 @@ class Conta
     {
         return $this->id;
     }
+    
     public function getName() 
     {
         return $this->nome;
@@ -37,7 +37,10 @@ class Conta
     {
         return $this->senha;
     }
-     
+    public function getFoto() 
+    {
+        return $this->foto;
+    }
     // Setters
     public function setId($id) 
     {
@@ -58,6 +61,10 @@ class Conta
     public function setSenha($senha) 
     {
         $this->senha = $senha;
+    }
+    public function setFoto($foto) 
+    {
+        $this->foto = $foto;
     }
 
 
