@@ -2,18 +2,24 @@
 class Usuario
 {
     // Atributos
-    public string $idFila;
+    public string $id;
     public string $numeroFila;
+    public float $tempoEspera;  
 
-    //Getters
+    //Getters+
     public function getNumeroFila() 
     {
          return $this->numeroFila;
     }
-    public function getIdFila() 
+    public function getId() 
     {
-         return $this->idFila;
+         return $this->id;
     }
+    public function getTempoEspera() 
+    {
+         return $this->tempoEspera;
+    }
+
 
 
     //Setters
@@ -21,10 +27,15 @@ class Usuario
     {
         $this->numeroFila = $NumeroFila;
     }
-    public function setIdFila($IdFila) 
+    public function setIdFila($Id) 
     {
-        $this->idFila = $IdFila;
+        $this->id = $Id;
     }
+    public function setTempoEspera($tempoEspera) 
+    {
+        $this->tempoEspera = $tempoEspera;
+    }
+
 
 }
 ?>

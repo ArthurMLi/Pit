@@ -13,8 +13,8 @@ create table conta (
 
 create table users(
     id int AUTO_INCREMENT not null PRIMARY KEY,
-    idFila int foreign key REFERENCES fila(id),
-    numero_fila VARCHAR(10) NULL
+    numeroFila VARCHAR(10),
+    tempoEspera float 
 )
 create table estabelecimento(
     id INT AUTO_INCREMENT not null PRIMARY KEY,
@@ -44,4 +44,12 @@ create table fila(
     qntPessoasFila INT NOT NULL,
     endereco text NOT NULL,
     img text
+);
+
+CREATE TABLE fila_usuario (
+    idFila INT NOT NULL,
+    idUsuario INT NOT NULL,
+    PRIMARY KEY (idFila, idUsuario),
+    FOREIGN KEY (idFila) REFERENCES fila(id),
+    FOREIGN KEY (idUsuario) REFERENCES users(id)
 );

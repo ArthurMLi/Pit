@@ -19,11 +19,7 @@ class FilaDAOImpl implements FilaDAO
             $statement->bindParam(':nome', $nome);
             $statement->bindParam(':endereco', $endereco);
             $statement->bindParam(':img', $img);
-            if ($statement->execute()) {
-                return true;
-            } else {
-                return false;
-            }
+            return $statement->execute();
         } catch (PDOException $e) {
             echo "Error: " . $e->getMessage();
         }
@@ -42,11 +38,7 @@ class FilaDAOImpl implements FilaDAO
             $statement->bindParam(':img', $img);
             $statement->bindParam(':idFila', $idFila);
 
-            if ($statement->execute()) {
-                return true;
-            } else {
-                return false;
-            }
+            return $statement->execute();
 
         } catch (PDOException $e) {
             echo "Error: " . $e->getMessage();
@@ -71,11 +63,7 @@ class FilaDAOImpl implements FilaDAO
 
         $statement = $this->conn->query($sql);
 
-        if ($statement->execute()) {
-            return true;
-        } else {
-            return false;
-        }
+        return $statement->execute();
     }
     function deleteFila($idFila)
     {
@@ -85,10 +73,6 @@ class FilaDAOImpl implements FilaDAO
         $statement = $this->conn->prepare($sql);
         $statement->bindParam(':idFila', $idFila);
 
-        if ($statement->execute()) {
-            return true;
-        } else {
-            return false;
-        }
+        return $statement->execute();
     }
 }
