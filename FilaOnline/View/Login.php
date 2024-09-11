@@ -10,6 +10,20 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <link rel="stylesheet" href="css/Login.css">
 <script src="js/Cadastro.js" type="text/javascript" defer></script>
+<style>
+        /* Estilo para o botão */
+        .btnsenha {
+            border: none;
+            background: transparent;
+            cursor: pointer;
+        }
+		
+        /* Estilo para SVGs */
+        svg {
+            display: inline-block;
+        }
+		
+    </style>
 </head>
 
 <body>
