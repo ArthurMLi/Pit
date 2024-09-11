@@ -3,10 +3,11 @@ class Funcionario
 {
     
     // Atributos
-    protected int $id;
-    protected string $nome;
-    private string $email;
-    protected int $telefone;
+    private $id;
+    private $nome;
+    private $email;
+    private $telefone;
+    private $senha;
 
     //Getters
     public function getId() 
@@ -25,6 +26,10 @@ class Funcionario
     {
          return $this->telefone;
     }
+    public function getSenha() 
+    {
+         return $this->senha;
+    }
 
     //Setters
     public function setId($Id) 
@@ -42,6 +47,10 @@ class Funcionario
     public function setTelefone($Telefone) 
     {
         $this->telefone = $Telefone;
+    }
+    public function setSenha($Senha) 
+    {
+        $this->senha = $Senha;
     }
 
 
