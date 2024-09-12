@@ -37,21 +37,12 @@
 	      <a class="nav-item nav-link active" href="../">Home <span class="sr-only">(Página atual)</span></a>
 	      <a class="nav-item nav-link" href="Login">Login</a>
 	      <a class="nav-item nav-link" href="Estabelecimentos">Estabelecimentos</a>
-	      <a class="nav-item nav-link" href="Perfil">Perfil</a>
 	
         	<?php
-			if (!isset($_SESSION['user_id'])) {
+			if (isset($_SESSION['user_id'])) {
 				echo '<a class="nav-item nav-link"><b>Deslogado</b></a>';
-				
-			} else {
-				echo '<a class="nav-item nav-link" href="Logout">Sair</a><a class="nav-item nav-link" ><b>' . $_SESSION['user_name'] . '</b></a>';
-				if (!isset($_SESSION['estabelecimento'])) {
-					echo '<a class="nav-item nav-link"><b>Usuario</b></a>';
-	
-				} else {
-					echo '<a class="nav-item nav-link"><b>Estabelecimento</b></a>';
-				}
-			}
+	  
+			  }
 			
 			?>
 

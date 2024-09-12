@@ -8,7 +8,8 @@ $id = isset($_GET['id']) ? $_GET['id'] : null;
 $contaDao = new ContaDAOImpl();
 $conta = new Conta();
 
-function displayMessage($message, $redirectUrl = null) {
+function displayMessage($message, $redirectUrl = null)
+{
     echo '<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -64,16 +65,28 @@ switch ($action) {
             $conta->setTelefone($_POST['telefone']);
             $conta->setSenha($_POST['senha']);
 
-            if ($contaDao->createConta(
-                $conta->getName(),
-                $conta->getEmail(),
-                $conta->getTelefone(),
-                $conta->getSenha()
-            )) {
-                displayMessage('Registro inserido com sucesso!', '../View/Login.php');
+            if (
+                $contaDao->createConta(
+                    $conta->getName(),
+                    $conta->getEmail(),
+                    $conta->getTelefone(),
+                    $conta->getSenha()
+                )
+            ) {
+                displayMessage('Registro inserido com sucesso!', '../View/Estabelecimentos.php');
             } else {
                 displayMessage('Erro ao inserir o registro.');
             }
+            $conta = $contaDao->validaConta($conta->getEmail(), $conta->getSenha());
+            
+                session_start();
+                $_SESSION['user_id'] = $conta->getId();
+                $_SESSION['user_name'] = $conta->getName();
+                $_SESSION['user_email'] = $conta->getEmail();
+                $_SESSION['user_telefone'] = $conta->getTelefone();
+                
+                exit();
+            
         }
         break;
 

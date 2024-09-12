@@ -1,5 +1,5 @@
 <?php
-include '/Fila.php';
+
 class Conta 
 {
     // Atributos
@@ -71,4 +71,3 @@ class Conta
 
     
 }
-?>

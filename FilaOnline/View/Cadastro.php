@@ -34,8 +34,7 @@
 	      <a class="nav-item nav-link active" href="../">Home <span class="sr-only">(Página atual)</span></a>
 	      <a class="nav-item nav-link" href="Login">Login</a>
 	      <a class="nav-item nav-link" href="Estabelecimentos">Estabelecimentos</a>
-	      <a class="nav-item nav-link" href="Perfil">Perfil</a>
-		  <a class="nav-item nav-link" href="Logout">Sair</a>
+
 	    </div>
 	  </div>
 	</nav>
