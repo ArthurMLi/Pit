@@ -1,22 +1,22 @@
-<?php
-namespace Home;
-session_start();
-?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Codigo Fila</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <?php
+    session_start();
+
+    ?>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Codigo Fila</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/Estabelecimentos.css">
 </head>
 
 <body>
 
-<!DOCTYPE html>
-<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -51,22 +51,22 @@ session_start();
 </head>
 <body>
     <header class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><img src="img/logo01.png" alt="Logo"></a>
+        <a class="navbar-brand" href="../"><img src="../img/logo01.png" alt="Logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(Página atual)</span></a>
-                <a class="nav-item nav-link" href="../FilaOnline/view/Login">Login</a>
-                <a class="nav-item nav-link" href="../FilaOnline/view/Estabelecimentos">Estabelecimentos</a>
+                <a class="nav-item nav-link active" href="../">Home <span class="sr-only">(Página atual)</span></a>
+                <a class="nav-item nav-link" href="Login">Login</a>
+                <a class="nav-item nav-link" href="Estabelecimentos">Estabelecimentos</a>
 
                 <?php
                 if (!isset($_SESSION['user_id'])) {
                     echo '<a class="nav-item nav-link"><b>Deslogado</b></a>';
                 } else {
-                    echo '<a class="nav-item nav-link" href="../FilaOnline/view/Perfil">Perfil</a><a class="nav-item nav-link" href="Logout">Sair</a><a class="nav-item nav-link"><b>' . $_SESSION['user_name'] . '</b></a>';
+                    echo '<a class="nav-item nav-link" href="Perfil">Perfil</a><a class="nav-item nav-link" href="Logout">Sair</a><a class="nav-item nav-link"><b>' . $_SESSION['user_name'] . '</b></a>';
                     if (!isset($_SESSION['estabelecimento'])) {
                         echo '';
                     } else {
@@ -77,27 +77,10 @@ session_start();
             </div>
         </div>
     </header>
+
+    <!-- jQuery and Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <div class="card mb-3" style="max-width: 540px;">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="./Img/mcdonalds.png" class="img-fluid rounded-start" alt="...">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">McDonalds</h5>
-          <h1>2 </h1>
-          <p class="card-text"><small class="text-body-secondary">Tempo de espera aproximado: 10min</small></p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <button type="button" onclick="EntrarFila" class="btn btn-primary" disabled="$desativadoEntrar">entrar na
-    fila</button>
-  <button type="button" $onclick="SairFila" class="btn btn-primary" disabled="$desativadoSair">sair da fila</button>
-
-</body>
 
 </html>
