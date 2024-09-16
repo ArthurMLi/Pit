@@ -11,14 +11,14 @@ class FilaDAOImpl implements FilaDAO
     {
         $this->conn = Database::getConnection();
     }
-    public function createFila($idEstabelecimento, $nome, $endereco, $img, $inicio, $termino)
+    public function createFila($idEstabelecimento, $nome, $endereco, $inicio, $termino)
     {
         try {
-            $statement = $this->conn->prepare("INSERT INTO fila (idEstabelecimento, nome, endereco, img, inicio, termino) VALUES (:idEstabelecimento, :nome, :endereco, :img, :inicio, :termino)");
+            $statement = $this->conn->prepare("INSERT INTO fila (idEstabelecimento, nome, endereco, img, inicio, termino) VALUES (:idEstabelecimento, :nome, :endereco, '', :inicio, :termino)");
             $statement->bindParam(':idEstabelecimento', $idEstabelecimento);
             $statement->bindParam(':nome', $nome);
             $statement->bindParam(':endereco', $endereco);
-            $statement->bindParam(':img', $img);
+            // $statement->bindParam(':img', $img);
             $statement->bindParam(':inicio', $inicio);
             $statement->bindParam(':termino', $termino);
             return $statement->execute();
@@ -65,8 +65,9 @@ class FilaDAOImpl implements FilaDAO
 
         $statement = $this->conn->query($sql);
 
-        return $statement->execute();
+        return $statement->fetchAll(PDO::FETCH_ASSOC);
     }
+
     function deleteFila($idFila)
     {
 

@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+<?php
+   if (session_status() === PHP_SESSION_NONE) {
+    // A sessão não foi iniciada, então você pode iniciá-la
+    session_start();
+}
+
+?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navbar</title>
@@ -104,7 +111,6 @@
             <div class="navbar-nav">
                 <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(Página atual)</span></a>
                 <a class="nav-item nav-link" href="../Login">Login</a>
-                <a class="nav-item nav-link" href="../Estabelecimentos">Estabelecimentos</a>
 
                 <?php
                 if (!isset($_SESSION['user_id'])) {
@@ -135,14 +141,25 @@
                 </div>
             </div>
             
+            <?php if (!empty($filas)): ?>
+                <?php foreach ($filas as $fila): ?>
+
             <a href="../../view/FilaExistente"><div class="col-md-6"> 
                 <div class="card"> 
                     <div class="card-header"> 
-                        <img src="../../Img/itau.png" alt="" style="width: 100%; height: auto;"> 
+                    <img src="logo-placeholder.png" alt="img">
+                        <p><?php echo htmlspecialchars($fila['nome']); ?></p>
                     </div> <div class="card-body"> 
                         <p>Pessoa 1</p> <p>Pessoa 1</p> <p>Pessoa 1</p> <p>Pessoa 1</p> <p>Tempo de espera:</p> 
                     </div> 
                 </div> </a>
+                
+                <?php endforeach; ?>
+        <?php else: ?>
+            <p>Nenhuma fila cadastrada.</p>
+        <?php endif; ?>
+
+
 </div>
             </div>
         </div>

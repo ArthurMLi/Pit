@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+<?php
+    session_start();    
+?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Fila</title>
@@ -40,9 +43,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="../#">Home <span class="sr-only">(Página atual)</span></a>
-                <a class="nav-item nav-link" href="Login">Login</a>
-                <a class="nav-item nav-link" href="Estabelecimentos">Estabelecimentos</a>
+                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(Página atual)</span></a>
+                <a class="nav-item nav-link" href="../Login">Login</a>
 
                 <?php
                 if (!isset($_SESSION['user_id'])) {
@@ -69,23 +71,28 @@
                 <h3 class="text-center">Cadastro de Fila</h3>
             </div>
             <div class="card-body">
-                <form id="filaForm" method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+            <form id="filaForm" action="../../Controller/FilaController?action=create_fila" method="post" enctype="multipart/form-data" >
+                    
                     <div class="form-group">
-                        <label for="nomeFila">Nome da Fila:</label>
-                        <input type="text" class="form-control" id="nomeFila" name="nomeFila" placeholder="Nome da Fila" required>
+                        <label for="nome">Nome da Fila:</label>
+                        <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome da Fila" required>
                     </div>
                     <div class="form-group">
                         <label for="endereco">Endereço:</label>
                         <input type="text" class="form-control" id="endereco" name="endereco" placeholder="Endereço" required>
                     </div>
                     <div class="form-group">
-                        <label for="horarioInicio">Horário de Início:</label>
-                        <input type="time" class="form-control" id="horarioInicio" name="horarioInicio" required>
+                        <label for="inicio">Horário de Início:</label>
+                        <input type="time" class="form-control" id="inicio" name="inicio" required>
                     </div>
                     <div class="form-group">
-                        <label for="horarioTermino">Horário de Término:</label>
-                        <input type="time" class="form-control" id="horarioTermino" name="horarioTermino" required>
+                        <label for="termino">Horário de Término:</label>
+                        <input type="time" class="form-control" id="termino" name="termino" required>
                     </div>
+                    <!-- <div class="form-group">
+                    <label for="img">Envie uma imagem para sua fila:</label>
+                    <input type="file" id="img" name="img" accept="image/*">
+                    </div> -->
                     <button type="submit" class="btn btn-primary btn-block">Cadastrar</button>
                 </form>
             </div>
