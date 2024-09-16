@@ -130,7 +130,7 @@
             <div class="col-md-6">
                 <div class="card">
                     <div class="card-header" >
-                        <button class="btn-add" onclick="window.location.href='fila.html'">+</button>
+                        <button class="btn-add" onclick="window.location.href='cadastrofila.php'">+</button>
                     </div>
                 </div>
             </div>

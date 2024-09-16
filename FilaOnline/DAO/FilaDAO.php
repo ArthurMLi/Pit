@@ -2,7 +2,7 @@
 
 interface FilaDAO {  
 
-    public function createFila($idEstabelecimento, $nome, $endereco, $img);
+    public function createFila($idEstabelecimento, $nome, $endereco, $img, $inicio, $termino);
     function updateFila($idFila, $nome, $endereco, $img);
     function getFila($idFila);
     function getAllFilas();

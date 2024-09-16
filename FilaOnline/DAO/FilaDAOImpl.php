@@ -11,14 +11,16 @@ class FilaDAOImpl implements FilaDAO
     {
         $this->conn = Database::getConnection();
     }
-    public function createFila($idEstabelecimento, $nome, $endereco, $img)
+    public function createFila($idEstabelecimento, $nome, $endereco, $img, $inicio, $termino)
     {
         try {
-            $statement = $this->conn->prepare("INSERT INTO fila (idEstabelecimento, nome, endereco, img) VALUES (:idEstabelecimento, :nome, :endereco, :img)");
+            $statement = $this->conn->prepare("INSERT INTO fila (idEstabelecimento, nome, endereco, img, inicio, termino) VALUES (:idEstabelecimento, :nome, :endereco, :img, :inicio, :termino)");
             $statement->bindParam(':idEstabelecimento', $idEstabelecimento);
             $statement->bindParam(':nome', $nome);
             $statement->bindParam(':endereco', $endereco);
             $statement->bindParam(':img', $img);
+            $statement->bindParam(':inicio', $inicio);
+            $statement->bindParam(':termino', $termino);
             return $statement->execute();
         } catch (PDOException $e) {
             echo "Error: " . $e->getMessage();

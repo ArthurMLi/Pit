@@ -48,7 +48,7 @@
 
 <body>
 <header class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="../"><img src="../img/logo01.png" alt="Logo"></a>
+        <a class="navbar-brand" href=".."><img src="../../img/logo01.png" alt="Logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
             <span class="navbar-toggler-icon"></span>
@@ -78,7 +78,8 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-	<div class="signup-container">
+	<div class="big-container">
+        
 	    <div class="signup-box">
 		
 	        <h2>Cadastro Estabelecimento</h2>

@@ -1,79 +1,84 @@
 <?php
-class Fila
-{
-    // Atributos
-    public int $NumeroPessoas;
-    public string $EstabelecimentoFila;
-    public $TempoMedio;
-    public string $PessoasFila;
+class Fila {
+    private $numeroPessoas;
+    private $estabelecimentoFila;
+    private $nome;
+    private $tempoMedio;
+    private $pessoasFila;
+    private $endereco;
+    private $img;
+    private $inicio;
+    private $termino;
 
-    private $Usuario = [];
-
-
-
-
-    // Getters 
-    public function getNumeroPessoas()
-    {
-        return $this->NumeroPessoas;
+    // Getters
+    public function getNumeroPessoas() {
+        return $this->numeroPessoas;
     }
-    public function getEstabelecimentoFila()
-    {
-        return $this->EstabelecimentoFila;
+
+    public function getEstabelecimentoFila() {
+        return $this->estabelecimentoFila;
     }
-    public function getTempoMedio()
-    {
-        return $this->TempoMedio;
+
+    public function getNome() {
+        return $this->nome;
     }
-    public function getPessoasFila()
-    {
-        return $this->PessoasFila;
+
+    public function getTempoMedio() {
+        return $this->tempoMedio;
     }
-    public function getUsuario()
-    {
-        return $this->Usuario;
+
+    public function getPessoasFila() {
+        return $this->pessoasFila;
+    }
+
+    public function getEndereco() {
+        return $this->endereco;
+    }
+
+    public function getImg() {
+        return $this->img;
+    }
+    public function getInicio() {
+        return $this->inicio;
+    }
+    public function getTermino() {
+        return $this->termino;
     }
 
     // Setters
-    public function setNumeroPessoas($NumeroPessoas)
-    {
-        $this->NumeroPessoas = $NumeroPessoas;
-    }
-    public function setEstabelecimentoFila($EstabelecimentoFila)
-    {
-        $this->EstabelecimentoFila = $EstabelecimentoFila;
-    }
-    public function setTempoMedio($TempoMedio)
-    {
-        $this->TempoMedio = $TempoMedio;
-    }
-    public function setPessoasFila($PessoasFila)
-    {
-        $this->PessoasFila = $PessoasFila;
-    }
-    public function setUsuario($Usuario)
-    {
-        $this->Usuario = $Usuario;
+    public function setNumeroPessoas($numeroPessoas) {
+        $this->numeroPessoas = $numeroPessoas;
     }
 
-    // Metodos
-    public function EntrarFila($IdFila, $NumeroFila)
-    {
-        $this->Usuario->setNumeroFila($NumeroFila);
-    }
-    public function SairFila($IdFila)
-    {
-        return $this->Usuario->getNumeroFila();
-    }
-    public function AvaliarFila($IdFila)
-    {
-        $NotaFila = 5;
-        return $NotaFila;
-    }
-    private function CalcularMedia()
-    {
-        return 0;
+    public function setEstabelecimentoFila($estabelecimentoFila) {
+        $this->estabelecimentoFila = $estabelecimentoFila;
     }
 
+    public function setNome($nome) {
+        $this->nome = $nome;
+    }
+
+    public function setTempoMedio($tempoMedio) {
+        $this->tempoMedio = $tempoMedio;
+    }
+
+    public function setPessoasFila($pessoasFila) {
+        $this->pessoasFila = $pessoasFila;
+    }
+
+    public function setEndereco($endereco) {
+        $this->endereco = $endereco;
+    }
+
+    public function setImg($img) {
+        $this->img = $img;
+    }
+    public function setInicio($inicio) {
+        $this->inicio = $inicio;
+    }
+    public function setTermino($termino) {
+        $this->termino = $termino;
+    }
 }
+
 ?>

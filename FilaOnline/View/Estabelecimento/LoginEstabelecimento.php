@@ -23,7 +23,21 @@
             display: inline-block;
         }
 		
-		.navbar-nav .nav-link {
+    </style>
+</head>
+
+
+
+<body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        .navbar-nav .nav-link {
             color: #2e9fea !important; /* Cor personalizada para os links */
             border: 1px solid #d3d3d3; /* Borda cinza claro */
             border-radius: 4px; /* Borda arredondada */
@@ -45,28 +59,21 @@
         .navbar-collapse {
             justify-content: center; /* Centraliza o conteúdo da barra de navegação */
         }
-
-		@media (max-width: 768px) {
-            .row {
-                flex-direction: column; /* Empilha as colunas */
-            }
-            .col-md-6 {
-                width: 100%; /* Cada coluna ocupa 100% da largura */
-            }
-        }
     </style>
 </head>
 
+
+
 <body>
-<header class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="../"><img src="../img/logo01.png" alt="Logo"></a>
+    <header class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="../"><img src="../../img/logo01.png" alt="Logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(Página atual)</span></a>
+                <a class="nav-item nav-link active" href="../../">Home <span class="sr-only">(Página atual)</span></a>
                 <a class="nav-item nav-link" href="../Login">Login</a>
                 <a class="nav-item nav-link" href="../Estabelecimentos">Estabelecimentos</a>
 
@@ -85,16 +92,16 @@
             </div>
         </div>
     </header>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
 	<div class="signup-container">
 		<div class="signup-box">
 		<div class="btn-group" role="group" aria-label="Exemplo básico">
-			<a type="button" href="../Login" class="btn btn-outline-info">Usuario</a>
-			<a class="btn btn-primary" href="LoginEstabelecimento" role="button">Estabelecimento</a>
-		</div>
+            <a type="button" href="../Login" class="btn btn-outline-info">Usuario</a>
+			<a class="btn btn-primary" href="#" role="button">Estabelecimento</a>
+			
+            </div>
 			<div><br></div>
 	        <h2>Login</h2>
 	        <form action="../../Controller/EstabelecimentoController?action=valida_conta" method="post">

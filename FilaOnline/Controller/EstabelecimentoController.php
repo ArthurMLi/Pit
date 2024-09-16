@@ -74,7 +74,7 @@ switch ($action) {
                 $estabelecimento->getDescricao(),
                 $estabelecimento->getSenha()
             )) {
-                displayMessage('Registro inserido com sucesso!', '../View/Login.php');
+                displayMessage('Registro inserido com sucesso!', '../View/Estabelecimento/HomeEstabelecimento.php');
             } else {
                 displayMessage('Erro ao inserir o registro.');
             }
@@ -98,7 +98,7 @@ switch ($action) {
                 $_SESSION['user_endereco'] = $estabelecimento->getEndereco();
                 $_SESSION['user_descricao'] = $estabelecimento->getDescricao();
                 $_SESSION['estabelecimento'] = true;
-                header('Location: ../View/Estabelecimentos.php');
+                header('Location: ../View/Estabelecimento/HomeEstabelecimento.php');
                 exit();
             }
         }
