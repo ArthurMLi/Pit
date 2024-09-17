@@ -1,5 +1,7 @@
 <?php
-
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
 require_once(__DIR__ . '/../Model/Estabelecimento.php');
 include_once(__DIR__ . '/../DAO/EstabelecimentoDAOImpl.php');
 
@@ -9,6 +11,7 @@ $estabelecimentoDao = new EstabelecimentoDAOImpl();
 $estabelecimento = new Estabelecimento();
 
 function displayMessage($message, $redirectUrl = null) {
+    
     echo '<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -74,7 +77,15 @@ switch ($action) {
                 $estabelecimento->getDescricao(),
                 $estabelecimento->getSenha()
             )) {
-                displayMessage('Registro inserido com sucesso!', '../View/Estabelecimento/HomeEstabelecimento.php');
+                session_start();
+                $_SESSION['user_id'] = $estabelecimento->getId();
+                $_SESSION['user_name'] = $estabelecimento->getNome();
+                $_SESSION['user_email'] = $estabelecimento->getEmail();
+                $_SESSION['user_cnpj'] = $estabelecimento->getCnpj();
+                $_SESSION['user_endereco'] = $estabelecimento->getEndereco();
+                $_SESSION['user_descricao'] = $estabelecimento->getDescricao();
+                $_SESSION['estabelecimento'] = true;
+                displayMessage('Registro inserido com sucesso!', '../View/Estabelecimento/index.php');
             } else {
                 displayMessage('Erro ao inserir o registro.');
             }
@@ -98,7 +109,7 @@ switch ($action) {
                 $_SESSION['user_endereco'] = $estabelecimento->getEndereco();
                 $_SESSION['user_descricao'] = $estabelecimento->getDescricao();
                 $_SESSION['estabelecimento'] = true;
-                header('Location: ../View/Estabelecimento/HomeEstabelecimento.php');
+                header('Location: ../View/Estabelecimento/index.php');
                 exit();
             }
         }

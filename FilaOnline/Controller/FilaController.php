@@ -1,5 +1,7 @@
 <?php
-
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
 include_once '../Model/Fila.php';
 include_once '../DAO/FilaDAOImpl.php';
 
@@ -7,6 +9,7 @@ $action = isset($_GET['action']) ? $_GET['action'] : '';
 $id = isset($_GET['id']) ? $_GET['id'] : null;
 $fila = new Fila();
 $filaDao = new FilaDAOImpl();
+
 
 class FilaController {
     private FilaDAO $filaDAOl; // Propriedade declarada com tipo
@@ -55,6 +58,12 @@ case 'create_fila':
         }
     }
     break;
+    case 'readall_fila':
+        session_start();
+        $conn = Database::getConnection();
+        $filaController = new FilaController($conn);
+        $filaController->listarFilas();
+        break;
 
 default:
     displayMessage('Ação não reconhecida.');

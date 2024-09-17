@@ -3,49 +3,42 @@
 <head>
 <?php
    if (session_status() === PHP_SESSION_NONE) {
-    // A sessão não foi iniciada, então você pode iniciá-la
-    session_start();
-}
-
+       session_start();
+   }
 ?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navbar</title>
+    <title>Lista de Filas</title>
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <style>
         .navbar-nav .nav-link {
-            color: #2e9fea !important; /* Cor personalizada para os links */
-            border: 1px solid #d3d3d3; /* Borda cinza claro */
-            border-radius: 4px; /* Borda arredondada */
-            padding: 8px 12px; /* Espaçamento interno */
-            margin: 2px; /* Espaçamento entre os links */
-            transition: background-color 0.3s, border-color 0.3s; /* Transição suave para o hover */
+            color: #2e9fea !important;
+            border: 1px solid #d3d3d3;
+            border-radius: 4px;
+            padding: 8px 12px;
+            margin: 2px;
+            transition: background-color 0.3s, border-color 0.3s;
         }
         .navbar-nav .nav-link:hover {
-            background-color: #e9f5fc; /* Cor de fundo ao passar o mouse */
-            border-color: #2e9fea; /* Cor da borda ao passar o mouse */
-            color: #2e9fea !important; /* Cor do texto ao passar o mouse */
+            background-color: #e9f5fc;
+            border-color: #2e9fea;
+            color: #2e9fea !important;
         }
         .navbar-brand img {
-            max-height: 50px; /* Ajuste a altura da imagem do logotipo */
+            max-height: 50px;
         }
         .navbar {
-            text-align: center; /* Centraliza o texto no header */
+            text-align: center;
         }
         .navbar-collapse {
-            justify-content: center; /* Centraliza o conteúdo da barra de navegação */
+            justify-content: center;
         }
 
-/*css utilizado para o design da pagina apos o header */
-
+        /* Estilos de design da página após o header */
         .container {
-            display: flex;
-            flex-direction: column; /* Empilha as colunas em dispositivos móveis */
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+            margin-top: 20px;
         }
 
         .card {
@@ -53,10 +46,15 @@
             border-radius: 10px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             padding: 20px;
-            width: 100%; /* Ocupa toda a largura do dispositivo */
-            max-width: 250px; /* Limita a largura máxima */
             text-align: center;
-            margin-top: 2%;
+            margin-top: 20px;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            max-height: 150px;
+            object-fit: cover;
         }
 
         .card-header {
@@ -67,103 +65,126 @@
             padding: 10px;
             font-weight: bold;
         }
-        .card-header button {
-            width:100%;
+
+        .fila-info {
+            text-align: left;
+            margin-top: 10px;
         }
-        .btn-add {
-            background-color: #007bff;
+
+        .fila-info p {
+            margin: 5px 0;
+        }
+
+        .fila-info .tempo-espera {
+            color: #ff5722;
+            font-weight: bold;
+        }
+
+        .fila-info .num-pessoas {
+            color: #28a745;
+            font-weight: bold;
+        }
+
+        .adicionar p{
+            font-size: 550%;
             color: white;
-            border: none;
-            border-radius:5%;
-            padding: 10px;
-            font-size: 20px;
-            cursor: pointer;
-            transition: background-color 0.3s;
+        }
+        .adicionar{
+            background-color: #007bff;
+            width: 100%;
+            max-height: 150px;
+            object-fit: cover;
+            border-radius: 2%;
+            text-decoration: none;
+            color: inherit; 
+        }
+        a:hover, a:focus {
+        text-decoration: none; /* Evita o sublinhado ao passar o mouse */
+        color: inherit; /* Mantém a cor ao passar o mouse */
         }
 
-        .btn-add:hover {
-            background-color: #0056b3;
-        }
-
-        .card-body {
-            margin-top: 20px;
-        }
-
-        /* Estilos para dispositivos móveis (tela menor que 768px) */
+        /* Responsividade para dispositivos móveis */
         @media (max-width: 768px) {
             .row {
-                flex-direction: column; /* Empilha as colunas */
+                flex-direction: column;
             }
             .col-md-6 {
-                width: 100%; /* Cada coluna ocupa 100% da largura */
+                width: 100%;
             }
         }
     </style>
 </head>
 <body>
-    <header class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="../"><img src="../img/logo01.png" alt="Logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(Página atual)</span></a>
-                <a class="nav-item nav-link" href="../Login">Login</a>
 
-                <?php
-                if (!isset($_SESSION['user_id'])) {
-                    echo '<a class="nav-item nav-link"><b>Deslogado</b></a>';
-                } else {
-                    echo '<a class="nav-item nav-link" href="../Perfil">Perfil</a><a class="nav-item nav-link" href="Logout">Sair</a><a class="nav-item nav-link"><b>' . $_SESSION['user_name'] . '</b></a>';
-                    if (!isset($_SESSION['estabelecimento'])) {
-                        echo '';
-                    } else {
-                        echo '<a class="nav-item nav-link"><b>Estabelecimento</b></a>';
-                    }
+<!-- Navbar -->
+<header class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="../"><img src="../img/logo01.png" alt="Logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="index.php">Home <span class="sr-only">(Página atual)</span></a>
+            <a class="nav-item nav-link" href="../../View/Login">Login</a>
+
+            <?php
+            if (!isset($_SESSION['user_id'])) {
+                echo '<a class="nav-item nav-link"><b>Deslogado</b></a>';
+            } else {
+                echo '<a class="nav-item nav-link" href="../Perfil">Perfil</a>
+                      <a class="nav-item nav-link" href="Logout">Sair</a>
+                      <a class="nav-item nav-link"><b>' . $_SESSION['user_name'] . '</b></a>';
+                if (isset($_SESSION['estabelecimento'])) {
+                    echo '<a class="nav-item nav-link"><b>Estabelecimento</b></a>';
                 }
-                ?>
-            </div>
+            }
+            ?>
         </div>
-    </header>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </div>
+</header>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-header" >
-                        <button class="btn-add" onclick="window.location.href='cadastrofila.php'">+</button>
-                    </div>
-                </div>
-            </div>
+<!-- Lista de Filas -->
+<div class="container">
+    <div class="row">
+
+    
+    <div class="col-md-6 col-lg-3">
+            
+            <div class="card">
+            <a class="adicionar" href="../View/Estabelecimento/cadastrofila.php"> <p>+</p> </a>
+        </div>
+        </div>
+
+        
             
             <?php if (!empty($filas)): ?>
                 <?php foreach ($filas as $fila): ?>
-
-            <a href="../../view/FilaExistente"><div class="col-md-6"> 
-                <div class="card"> 
-                    <div class="card-header"> 
-                    <img src="logo-placeholder.png" alt="img">
-                        <p><?php echo htmlspecialchars($fila['nome']); ?></p>
-                    </div> <div class="card-body"> 
-                        <p>Pessoa 1</p> <p>Pessoa 1</p> <p>Pessoa 1</p> <p>Pessoa 1</p> <p>Tempo de espera:</p> 
-                    </div> 
-                </div> </a>
-                
-                <?php endforeach; ?>
+        <div class="col-md-6 col-lg-3">
+            <div class="card">
+                <img src="https://via.placeholder.com/150" class="card-img-top" alt="Fila 1">
+                <div class="card-header"><?php echo htmlspecialchars($fila['nome']); ?></div>
+                <div class="fila-info">
+                    <p><strong>Endereço:</strong> <?php echo htmlspecialchars($fila['endereco']); ?></p>
+                    <p class="tempo-espera">Tempo de espera: </p>
+                    <p class="num-pessoas">Pessoas na fila: </p>
+                    <p><strong>Inicio:</strong> <?php echo htmlspecialchars($fila['inicio']); ?> </p>
+                    <p><strong>Termino:</strong> <?php echo htmlspecialchars($fila['termino']); ?> </p>
+                    <p><strong>Prévia das pessoas:</strong> </p>
+                </div>
+            </div>
+        </div>
+        <?php endforeach; ?>
         <?php else: ?>
             <p>Nenhuma fila cadastrada.</p>
         <?php endif; ?>
-
-
-</div>
-            </div>
-        </div>
     </div>
+</div>
 
-    </body>
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
 </html>
