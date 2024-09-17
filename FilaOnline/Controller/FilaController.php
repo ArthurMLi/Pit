@@ -12,6 +12,7 @@ $filaDao = new FilaDAOImpl();
 
 
 class FilaController {
+
     private FilaDAO $filaDAOl; // Propriedade declarada com tipo
 
     public function __construct($conn) {
@@ -20,6 +21,9 @@ class FilaController {
     }
 
     public function listarFilas() {
+        if (session_status() === PHP_SESSION_NONE) {
+            session_start();
+        }
         // Obtém todas as filas do banco de dados via DAO
         $filas = $this->filaDAOl->getAllFilas();
 
@@ -33,7 +37,9 @@ switch ($action) {
 
 case 'create_fila':
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-        session_start();
+        if (session_status() === PHP_SESSION_NONE) {
+            session_start();
+        }
         $fila->setEstabelecimentoFila($_SESSION['user_id']);
         $fila->setNome($_POST['nome']);
         $fila->setEndereco($_POST['endereco']);
@@ -59,7 +65,9 @@ case 'create_fila':
     }
     break;
     case 'readall_fila':
-        session_start();
+        if (session_status() === PHP_SESSION_NONE) {
+            session_start();
+        }
         $conn = Database::getConnection();
         $filaController = new FilaController($conn);
         $filaController->listarFilas();
