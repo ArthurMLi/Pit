@@ -55,9 +55,7 @@ case 'create_fila':
             $fila->getInicio(),
             $fila->getTermino()
         )) {
-            $conn = Database::getConnection();
-            $filaController = new FilaController($conn);
-            $filaController->listarFilas();
+            header('Location: ../Controller/FilaController?action=readall_fila');
             // displayMessage('Fila criada com sucesso!', '../View/Estabelecimento/HomeEstabelecimento.php');
         } else {
             displayMessage('Erro ao criar a fila.');
