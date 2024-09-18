@@ -11,57 +11,64 @@ $fila = new Fila();
 $filaDao = new FilaDAOImpl();
 
 
-class FilaController {
+class FilaController
+{
 
     private FilaDAO $filaDAOl; // Propriedade declarada com tipo
 
-    public function __construct($conn) {
+    public function __construct($conn)
+    {
         // Injeção de dependência do DAO
         $this->filaDAOl = new FilaDAOImpl($conn);
     }
 
-    public function listarFilas() {
+    public function listarFilas()
+    {
         if (session_status() === PHP_SESSION_NONE) {
             session_start();
         }
         // Obtém todas as filas do banco de dados via DAO
         $filas = $this->filaDAOl->getAllFilas();
-
+        $_SESSION['filas'] = $filas;
         // Inclui a View, passando os dados das filas
-        include '../View/Estabelecimento/HomeEstabelecimento.php';
+        echo("A");
+        header("Location: ../View/Estabelecimento/HomeEstabelecimento.php");
+        exit();
     }
 }
 
 
 switch ($action) {
 
-case 'create_fila':
-    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-        if (session_status() === PHP_SESSION_NONE) {
-            session_start();
-        }
-        $fila->setEstabelecimentoFila($_SESSION['user_id']);
-        $fila->setNome($_POST['nome']);
-        $fila->setEndereco($_POST['endereco']);
-        // $fila->setImg($_POST['img']);
-        $fila->setInicio($_POST['inicio']);
-        $fila->setTermino($_POST['termino']);
+    case 'create_fila':
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            if (session_status() === PHP_SESSION_NONE) {
+                session_start();
+            }
+            $fila->setEstabelecimentoFila($_SESSION['user_id']);
+            $fila->setNome($_POST['nome']);
+            $fila->setEndereco($_POST['endereco']);
+            // $fila->setImg($_POST['img']);
+            $fila->setInicio($_POST['inicio']);
+            $fila->setTermino($_POST['termino']);
 
-        if ($filaDao->createFila(
-            $fila->getEstabelecimentoFila(),
-            $fila->getNome(),
-            $fila->getEndereco(),
-            // $fila->getImg(),
-            $fila->getInicio(),
-            $fila->getTermino()
-        )) {
-            header('Location: ../Controller/FilaController?action=readall_fila');
-            // displayMessage('Fila criada com sucesso!', '../View/Estabelecimento/HomeEstabelecimento.php');
-        } else {
-            displayMessage('Erro ao criar a fila.');
+            if (
+                $filaDao->createFila(
+                    $fila->getEstabelecimentoFila(),
+                    $fila->getNome(),
+                    $fila->getEndereco(),
+                    // $fila->getImg(),
+                    $fila->getInicio(),
+                    $fila->getTermino()
+                )
+            ) {
+                header('Location: ../Controller/FilaController?action=readall_fila');
+                // displayMessage('Fila criada com sucesso!', '../View/Estabelecimento/HomeEstabelecimento.php');
+            } else {
+                displayMessage('Erro ao criar a fila.');
+            }
         }
-    }
-    break;
+        break;
     case 'readall_fila':
         if (session_status() === PHP_SESSION_NONE) {
             session_start();
@@ -71,18 +78,16 @@ case 'create_fila':
         $filaController->listarFilas();
         break;
 
-default:
-    displayMessage('Ação não reconhecida.');
-    break;
-
-
-
+    default:
+        displayMessage('Ação não reconhecida.');
+        break;
 
 }
 
 
 
-function displayMessage($message, $redirectUrl = null) {
+function displayMessage($message, $redirectUrl = null)
+{
     echo '<!DOCTYPE html>
 <html lang="pt-BR">
 <head>

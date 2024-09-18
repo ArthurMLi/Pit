@@ -6,7 +6,7 @@
 <title>Codigo Fila</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <link rel="stylesheet" href="css/Login.css">
-<script src="js/Cadastro.js" type="text/javascript" defer></script>
+
 <style>
         /* Estilo para o botão */
         .btnsenha {
