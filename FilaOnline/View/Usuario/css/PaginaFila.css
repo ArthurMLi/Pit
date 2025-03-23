@@ -1,0 +1,55 @@
+.estrelas input[type=radio] {
+    display: none;
+}
+
+.estrelas label i.fa:before {
+    content: '\f005';
+    color: #FC0;
+}
+
+.estrelas input[type=radio]:checked ~ label i.fa:before {
+    color: #CCC;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.navbar-nav .nav-link {
+    color: #2e9fea !important;
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin: 2px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #e9f5fc;
+    border-color: #2e9fea;
+    color: #2e9fea !important;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}

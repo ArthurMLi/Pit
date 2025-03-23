@@ -1,0 +1,121 @@
+.navbar-nav .nav-link {
+    color: #2e9fea !important;
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin: 2px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #e9f5fc;
+    border-color: #2e9fea;
+    color: #2e9fea !important;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-img img {
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+    object-fit: cover;
+    border: 20px;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+
+.spc01 {
+    margin-top: 5%;
+}
+
+.fila-info {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.fila-info p {
+    margin: 5px 0;
+}
+
+.fila-info .tempo-espera {
+    color: #ff5722;
+    font-weight: bold;
+}
+
+.fila-info .num-pessoas {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.adicionar p {
+    font-size: 550%;
+    color: white;
+}
+
+.adicionar {
+    background-color: #007bff;
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 2%;
+    text-decoration: none;
+    color: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 576px) {
+    .col-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}

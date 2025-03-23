@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+    background-color: white;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col {
+    flex: 1 1 calc(20% - 20px);
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.card {
+    border-radius: 20px;
+    padding: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+
+.card-img-top {
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    margin-bottom: 15px;
+    font-size: 1.25rem;
+    color: rgb(121, 121, 121);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.btn-primary {
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 0.875rem;
+}
+
+.btn-primary:hover {
+    background-color: #3174d9;
+}
+
+.fds {
+    background-color: white;
+    border: none;
+}
+
+.navbar-nav .nav-link {
+    color: #2e9fea !important;
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin: 2px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #e9f5fc;
+    border-color: #2e9fea;
+    color: #2e9fea !important;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+@media (max-width: 1024px) {
+    .col {
+        flex: 1 1 calc(20% - 10px);
+    }
+}
+
+@media (max-width: 768px) {
+    .col {
+        flex: 1 1 calc(45% - 10px);
+    }
+}
+
+@media (max-width: 576px) {
+    .col {
+        flex: 1 1 calc(50% - 10px);
+    }
+
+    .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .col-sm-12.col-md-6.col-lg-4.mb-4 {
+        width: 50%;
+    }
+
+    .col-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+a.btn.btn-primary {
+    background-color: white;
+    border-color: white;
+    padding: 0px;
+}

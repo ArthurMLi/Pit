@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+    background-color: white;
+}
+
+.big-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.signup-box {
+    width: 400px;
+    background-color: #ffffff;
+    color: #808080;
+    padding: 30px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #2369b3;
+    text-align: center;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.signup-box h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.btnsenha {
+    width: 10%;
+}
+
+.btn-entrar {
+    width: 100%;
+    padding: 10px;
+    background-color: #0179e3;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-entrar:hover {
+    background-color: #3174d9;
+}
+
+.bottom-text {
+    margin-top: 20px;
+}
+
+.bottom-text p {
+    color: #66b1e3;
+    font-size: 0.9rem;
+}
+
+.bottom-text a {
+    color: #808080;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.bottom-text a:hover {
+    color: #9a9a9a;
+}
+
+.btnsenha {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+svg {
+    display: inline-block;
+}
+
+.navbar-nav .nav-link {
+    color: #2e9fea !important;
+    padding: 8px 12px;
+    margin: 2px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #e9f5fc;
+    border-color: #2e9fea;
+    color: #2e9fea !important;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+@media (max-width: 400px) {
+    .signup-box {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .btn-entrar {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+}
